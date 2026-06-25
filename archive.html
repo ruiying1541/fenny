@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fenny - Archive</title>
   <link rel="stylesheet" href="/assets/style.css">
+  <meta name="theme-color" content="#0a0a0b">
 </head>
 <body>
   <nav class="nav">
@@ -22,7 +23,7 @@
     </header>
 
     <div id="archive-list">
-      <p style="text-align:center; color:var(--color-text-tertiary); padding:var(--space-32);">Loading...</p>
+      <p style="text-align:center; color:var(--text-tertiary); padding:var(--s8);">Loading...</p>
     </div>
   </main>
 
@@ -39,7 +40,7 @@
       .then(function(data) {
         var list = document.getElementById('archive-list');
         if (!data.issues || data.issues.length === 0) {
-          list.innerHTML = '<p style="text-align:center; color:var(--color-text-tertiary); padding:var(--space-32);">No issues yet.</p>';
+          list.innerHTML = '<p style="text-align:center; color:var(--text-tertiary); padding:var(--s8);">No issues yet.</p>';
           return;
         }
         list.innerHTML = data.issues.map(function(issue) {
@@ -52,7 +53,7 @@
       })
       .catch(function() {
         document.getElementById('archive-list').innerHTML =
-          '<p style="text-align:center; color:var(--color-accent);">Failed to load archive.</p>';
+          '<p style="text-align:center; color:var(--accent);">Failed to load archive.</p>';
       });
   </script>
 </body>
