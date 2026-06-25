@@ -4,19 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fenny - Archive</title>
-  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="stylesheet" href="./assets/style.css">
   <meta name="theme-color" content="#0a0a0b">
 </head>
 <body>
   <nav class="nav">
-    <a href="/" class="nav-brand">
-      <img src="/assets/logo.png" alt="Rylee" class="logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+    <a href="./" class="nav-brand">
+      <img src="./assets/logo.png" alt="Rylee" class="logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
       <span class="logo-fallback" style="display:none"></span>
       <span>Rylee</span>
     </a>
     <div class="nav-links">
-      <a href="/">Home</a>
-      <a href="/archive.html" class="active">Archive</a>
+      <a href="./">Home</a>
+      <a href="./archive.html" class="active">Archive</a>
     </div>
   </nav>
 
@@ -39,7 +39,7 @@
   </footer>
 
   <script>
-    fetch('/index.json')
+    fetch('./index.json')
       .then(function(r) { return r.json(); })
       .then(function(data) {
         var list = document.getElementById('archive-list');
