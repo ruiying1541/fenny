@@ -1,5 +1,15 @@
 {
   "site_name": "Fenny",
   "site_description": "Product Design AI Hotspot Weekly",
-  "issues": []
+  "issues": [
+    {
+      "week": "2026-W26",
+      "issue_number": 1,
+      "date": "2026-06-25",
+      "title": "Fenny #1 - AI-Native Design",
+      "item_count": 10,
+      "url": "/week/2026-W26.html",
+      "data_url": "/data/2026-W26.json"
+    }
+  ]
 }
