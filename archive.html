@@ -5,8 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fenny - Archive</title>
   <link rel="stylesheet" href="/assets/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
   <nav class="nav">
@@ -18,19 +16,21 @@
   </nav>
 
   <main class="container">
-    <header style="text-align:center; padding-bottom:var(--space-2xl); border-bottom:2px solid var(--color-border); margin-bottom:var(--space-2xl);">
-      <h1 style="font-family:var(--font-display); font-weight:900; font-size:2rem; letter-spacing:-0.02em;">Archive</h1>
-      <p style="font-family:var(--font-body); font-size:0.95rem; color:var(--color-text-tertiary); margin-top:var(--space-sm);">All issues of Fenny, in reverse chronological order.</p>
+    <header class="archive-header">
+      <h1>Archive</h1>
+      <p>All issues, in reverse chronological order.</p>
     </header>
 
     <div id="archive-list">
-      <p style="text-align:center; color:var(--color-text-tertiary); font-style:italic; padding:var(--space-2xl);">Loading archive...</p>
+      <p style="text-align:center; color:var(--color-text-tertiary); padding:var(--space-32);">Loading...</p>
     </div>
   </main>
 
   <footer class="footer">
-    <p>Fenny - Product Design AI Hotspot Weekly</p>
-    <p>Powered by CodeFlicker</p>
+    <div class="footer-row">
+      <span class="footer-brand">Fenny</span>
+      <span class="footer-text">Powered by CodeFlicker</span>
+    </div>
   </footer>
 
   <script>
@@ -39,7 +39,7 @@
       .then(function(data) {
         var list = document.getElementById('archive-list');
         if (!data.issues || data.issues.length === 0) {
-          list.innerHTML = '<p style="text-align:center; color:var(--color-text-tertiary); font-style:italic; padding:var(--space-2xl);">No issues yet. Check back soon.</p>';
+          list.innerHTML = '<p style="text-align:center; color:var(--color-text-tertiary); padding:var(--space-32);">No issues yet.</p>';
           return;
         }
         list.innerHTML = data.issues.map(function(issue) {
@@ -50,9 +50,9 @@
           '</a>';
         }).join('');
       })
-      .catch(function(err) {
+      .catch(function() {
         document.getElementById('archive-list').innerHTML =
-          '<p style="text-align:center; color:var(--color-accent);">Failed to load archive. Please try again later.</p>';
+          '<p style="text-align:center; color:var(--color-accent);">Failed to load archive.</p>';
       });
   </script>
 </body>
