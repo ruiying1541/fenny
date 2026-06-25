@@ -644,6 +644,85 @@ a { color: inherit; text-decoration: none; }
   color: var(--accent);
 }
 
+/* --- Region Tag --- */
+.region-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s1);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-left: var(--s2);
+}
+
+.region-tag.cn {
+  color: #ff6b6b;
+  background: rgba(255, 107, 107, 0.12);
+  border: 1px solid rgba(255, 107, 107, 0.25);
+}
+
+.region-tag.global {
+  color: var(--accent);
+  background: var(--accent-dim);
+  border: 1px solid var(--accent-border);
+}
+
+/* --- Region Section --- */
+.region-section {
+  margin-top: var(--s10);
+}
+
+.region-header {
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+  padding: var(--s10) 0 var(--s6);
+}
+
+.region-header .region-icon {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.region-header .region-icon.cn {
+  background: rgba(255, 107, 107, 0.2);
+  color: #ff6b6b;
+  border: 1px solid rgba(255, 107, 107, 0.35);
+}
+
+.region-header .region-icon.global {
+  background: var(--accent-dim);
+  color: var(--accent);
+  border: 1px solid var(--accent-border);
+}
+
+.region-header .region-label {
+  font-family: var(--font-display);
+  font-size: var(--text-h2);
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+/* Override top-3 rank colors for each region */
+.region-section.cn .hotspot-card:nth-child(1) .hotspot-rank { color: #ff6b6b; }
+.region-section.cn .hotspot-card:nth-child(2) .hotspot-rank { color: #ffa07a; }
+.region-section.cn .hotspot-card:nth-child(3) .hotspot-rank { color: #ff8c42; }
+
+.region-section.global .hotspot-card:nth-child(1) .hotspot-rank { color: var(--rank-gold); }
+.region-section.global .hotspot-card:nth-child(2) .hotspot-rank { color: var(--rank-silver); }
+.region-section.global .hotspot-card:nth-child(3) .hotspot-rank { color: var(--rank-bronze); }
+
 /* --- Scrollbar --- */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
