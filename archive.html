@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fenny - Archive</title>
+  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <nav class="nav">
+    <a href="/" class="nav-brand">Fenny</a>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/archive.html" class="active">Archive</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <header style="text-align:center; padding-bottom:var(--space-2xl); border-bottom:2px solid var(--color-border); margin-bottom:var(--space-2xl);">
+      <h1 style="font-family:var(--font-display); font-weight:900; font-size:2rem; letter-spacing:-0.02em;">Archive</h1>
+      <p style="font-family:var(--font-body); font-size:0.95rem; color:var(--color-text-tertiary); margin-top:var(--space-sm);">All issues of Fenny, in reverse chronological order.</p>
+    </header>
+
+    <div id="archive-list">
+      <p style="text-align:center; color:var(--color-text-tertiary); font-style:italic; padding:var(--space-2xl);">Loading archive...</p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Fenny - Product Design AI Hotspot Weekly</p>
+    <p>Powered by CodeFlicker</p>
+  </footer>
+
+  <script>
+    fetch('/index.json')
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        var list = document.getElementById('archive-list');
+        if (!data.issues || data.issues.length === 0) {
+          list.innerHTML = '<p style="text-align:center; color:var(--color-text-tertiary); font-style:italic; padding:var(--space-2xl);">No issues yet. Check back soon.</p>';
+          return;
+        }
+        list.innerHTML = data.issues.map(function(issue) {
+          return '<a href="' + issue.url + '" class="archive-item">' +
+            '<span class="archive-number">#' + issue.issue_number + '</span>' +
+            '<span class="archive-date">' + issue.date + '</span>' +
+            '<span class="archive-title">' + issue.title + '</span>' +
+          '</a>';
+        }).join('');
+      })
+      .catch(function(err) {
+        document.getElementById('archive-list').innerHTML =
+          '<p style="text-align:center; color:var(--color-accent);">Failed to load archive. Please try again later.</p>';
+      });
+  </script>
+</body>
+</html>
