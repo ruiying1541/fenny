@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fenny - Archive</title>
+  <title>Rylee - 归档</title>
   <link rel="stylesheet" href="./assets/style.css">
   <meta name="theme-color" content="#0a0a0b">
 </head>
@@ -15,19 +15,19 @@
       <span>Rylee</span>
     </a>
     <div class="nav-links">
-      <a href="./">Home</a>
-      <a href="./archive.html" class="active">Archive</a>
+      <a href="./">首页</a>
+      <a href="./archive.html" class="active">归档</a>
     </div>
   </nav>
 
   <main class="container">
     <header class="archive-header">
-      <h1>Archive</h1>
-      <p>All issues, in reverse chronological order.</p>
+      <h1>归档</h1>
+      <p>所有期数，按时间倒序排列</p>
     </header>
 
     <div id="archive-list">
-      <p style="text-align:center; color:var(--text-tertiary); padding:var(--s8);">Loading...</p>
+      <p style="text-align:center; color:var(--text-tertiary); padding:var(--s8);">加载中...</p>
     </div>
   </main>
 
@@ -44,7 +44,7 @@
       .then(function(data) {
         var list = document.getElementById('archive-list');
         if (!data.issues || data.issues.length === 0) {
-          list.innerHTML = '<p style="text-align:center; color:var(--text-tertiary); padding:var(--s8);">No issues yet.</p>';
+          list.innerHTML = '<p style="text-align:center; color:var(--text-tertiary); padding:var(--s8);">暂无期数</p>';
           return;
         }
         list.innerHTML = data.issues.map(function(issue) {
@@ -57,7 +57,7 @@
       })
       .catch(function() {
         document.getElementById('archive-list').innerHTML =
-          '<p style="text-align:center; color:var(--accent);">Failed to load archive.</p>';
+          '<p style="text-align:center; color:var(--accent);">加载归档失败</p>';
       });
   </script>
 </body>
