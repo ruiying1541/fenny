@@ -35,7 +35,7 @@
   <div class="content-wrapper">
   <main class="container">
     <nav class="breadcrumb">
-      <a href="../../github-ui/">GitHub 排行</a>
+      <a href="./">GitHub 排行</a>
       <span class="sep">&#8250;</span>
       <span class="current">归档</span>
     </nav>
@@ -58,7 +58,7 @@
   </div>
 
   <script>
-    fetch('../../data/github-index.json')
+    fetch('../data/github-index.json')
       .then(function(r) { return r.json(); })
       .then(function(data) {
         var list = document.getElementById('archive-list');

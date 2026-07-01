@@ -7,8 +7,8 @@
       "date": "2026-06-25",
       "title": "AI 原生设计",
       "item_count": 10,
-      "url": "/week/2026-06.html",
-      "data_url": "/data/2026-06.json"
+      "url": "./week/2026-06.html",
+      "data_url": "./data/2026-06.json"
     }
   ]
 }

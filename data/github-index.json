@@ -7,8 +7,8 @@
       "date": "2026-06-30",
       "title": "2026 年 6 月下半月",
       "item_count": 5,
-      "url": "/github-ui/week/2026-06-B.html",
-      "data_url": "/data/github-2026-06-B.json"
+      "url": "./week/2026-06-B.html",
+      "data_url": "../data/github-2026-06-B.json"
     }
   ]
 }
