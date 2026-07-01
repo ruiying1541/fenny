@@ -1,15 +1,14 @@
 {
-  "site_name": "Fenny",
-  "site_description": "Product Design AI Hotspot Weekly",
+  "site_name": "Rylee",
+  "site_description": "产品设计 AI 热点月刊",
   "issues": [
     {
-      "week": "2026-W26",
-      "issue_number": 1,
+      "period": "2026-06",
       "date": "2026-06-25",
-      "title": "Fenny #1 - AI 原生设计",
+      "title": "AI 原生设计",
       "item_count": 10,
-      "url": "/week/2026-W26.html",
-      "data_url": "/data/2026-W26.json"
+      "url": "/week/2026-06.html",
+      "data_url": "/data/2026-06.json"
     }
   ]
 }

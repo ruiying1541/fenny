@@ -1,0 +1,14 @@
+{
+  "channel_name": "GitHub 排行",
+  "channel_description": "半月刊 - GitHub 热门 UI 设计项目 TOP 5",
+  "issues": [
+    {
+      "period": "2026-06-B",
+      "date": "2026-06-30",
+      "title": "2026 年 6 月下半月",
+      "item_count": 5,
+      "url": "/github-ui/week/2026-06-B.html",
+      "data_url": "/data/github-2026-06-B.json"
+    }
+  ]
+}

@@ -1,0 +1,571 @@
+{
+  "week": "2026-W26",
+  "collected_at": "2026-06-26T17:57:58.288534",
+  "total_items": 20,
+  "sources": [
+    {
+      "source_name": "GitHub",
+      "source_type": "github_repo",
+      "items": [
+        {
+          "title": "mui/material-ui",
+          "url": "https://github.com/mui/material-ui",
+          "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
+          "heat": 98475,
+          "heat_type": "stars",
+          "tags": [
+            "design-system",
+            "material-design",
+            "material-ui",
+            "react",
+            "react-components"
+          ],
+          "collected_at": "2026-06-26T17:57:58.288556",
+          "github_stars": 98475,
+          "github_stars_gained": null,
+          "github_forks": 32595,
+          "github_language": "JavaScript",
+          "github_topics": [
+            "design-system",
+            "material-design",
+            "material-ui",
+            "react",
+            "react-components"
+          ],
+          "github_description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
+          "source_type": "github_repo"
+        },
+        {
+          "title": "nextlevelbuilder/ui-ux-pro-max-skill",
+          "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+          "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
+          "heat": 96676,
+          "heat_type": "stars",
+          "tags": [
+            "ai-skills",
+            "antigravity",
+            "claude",
+            "claude-code",
+            "codex"
+          ],
+          "collected_at": "2026-06-26T17:57:58.288564",
+          "github_stars": 96676,
+          "github_stars_gained": null,
+          "github_forks": 10167,
+          "github_language": "Python",
+          "github_topics": [
+            "ai-skills",
+            "antigravity",
+            "claude",
+            "claude-code",
+            "codex"
+          ],
+          "github_description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
+          "source_type": "github_repo"
+        },
+        {
+          "title": "DavidHDev/react-bits",
+          "url": "https://github.com/DavidHDev/react-bits",
+          "description": "An open source collection of animated, interactive & fully customizable React components for building memorable websites.",
+          "heat": 41936,
+          "heat_type": "stars",
+          "tags": [
+            "3d",
+            "animations",
+            "component-library",
+            "components",
+            "components-library"
+          ],
+          "collected_at": "2026-06-26T17:57:58.288570",
+          "github_stars": 41936,
+          "github_stars_gained": null,
+          "github_forks": 1922,
+          "github_language": "JavaScript",
+          "github_topics": [
+            "3d",
+            "animations",
+            "component-library",
+            "components",
+            "components-library"
+          ],
+          "github_description": "An open source collection of animated, interactive & fully customizable React components for building memorable websites.",
+          "source_type": "github_repo"
+        },
+        {
+          "title": "saadeghi/daisyui",
+          "url": "https://github.com/saadeghi/daisyui",
+          "description": "🌼 🌼 🌼 🌼 🌼  The most popular, free and open-source Tailwind CSS component library",
+          "heat": 41178,
+          "heat_type": "stars",
+          "tags": [
+            "component",
+            "component-library",
+            "components",
+            "css",
+            "css-components"
+          ],
+          "collected_at": "2026-06-26T17:57:58.288576",
+          "github_stars": 41178,
+          "github_stars_gained": null,
+          "github_forks": 1635,
+          "github_language": "Svelte",
+          "github_topics": [
+            "component",
+            "component-library",
+            "components",
+            "css",
+            "css-components"
+          ],
+          "github_description": "🌼 🌼 🌼 🌼 🌼  The most popular, free and open-source Tailwind CSS component library",
+          "source_type": "github_repo"
+        },
+        {
+          "title": "vuetifyjs/vuetify",
+          "url": "https://github.com/vuetifyjs/vuetify",
+          "description": "🐉 Vue Component Framework",
+          "heat": 41003,
+          "heat_type": "stars",
+          "tags": [
+            "javascript",
+            "material",
+            "material-components",
+            "material-design",
+            "material-theme"
+          ],
+          "collected_at": "2026-06-26T17:57:58.288582",
+          "github_stars": 41003,
+          "github_stars_gained": null,
+          "github_forks": 7131,
+          "github_language": "TypeScript",
+          "github_topics": [
+            "javascript",
+            "material",
+            "material-components",
+            "material-design",
+            "material-theme"
+          ],
+          "github_description": "🐉 Vue Component Framework",
+          "source_type": "github_repo"
+        },
+        {
+          "title": "chakra-ui/chakra-ui",
+          "url": "https://github.com/chakra-ui/chakra-ui",
+          "description": "Chakra UI is a component system for building SaaS products with speed ⚡️",
+          "heat": 40478,
+          "heat_type": "stars",
+          "tags": [
+            "a11y",
+            "accessible",
+            "ark-ui",
+            "chakra-ui",
+            "component"
+          ],
+          "collected_at": "2026-06-26T17:57:58.288588",
+          "github_stars": 40478,
+          "github_stars_gained": null,
+          "github_forks": 3618,
+          "github_language": "TypeScript",
+          "github_topics": [
+            "a11y",
+            "accessible",
+            "ark-ui",
+            "chakra-ui",
+            "component"
+          ],
+          "github_description": "Chakra UI is a component system for building SaaS products with speed ⚡️",
+          "source_type": "github_repo"
+        },
+        {
+          "title": "layui/layui",
+          "url": "https://github.com/layui/layui",
+          "description": "一套遵循浏览器原生态开发模式的 Web UI 组件库。",
+          "heat": 30552,
+          "heat_type": "stars",
+          "tags": [
+            "component-library",
+            "css",
+            "html",
+            "javascript",
+            "layui"
+          ],
+          "collected_at": "2026-06-26T17:57:58.288594",
+          "github_stars": 30552,
+          "github_stars_gained": null,
+          "github_forks": 7384,
+          "github_language": "JavaScript",
+          "github_topics": [
+            "component-library",
+            "css",
+            "html",
+            "javascript",
+            "layui"
+          ],
+          "github_description": "一套遵循浏览器原生态开发模式的 Web UI 组件库。",
+          "source_type": "github_repo"
+        },
+        {
+          "title": "heroui-inc/heroui",
+          "url": "https://github.com/heroui-inc/heroui",
+          "description": "🚀 Beautiful, fast and modern React UI library. (Previously NextUI)",
+          "heat": 29724,
+          "heat_type": "stars",
+          "tags": [
+            "component-library",
+            "components",
+            "library",
+            "reactjs"
+          ],
+          "collected_at": "2026-06-26T17:57:58.288599",
+          "github_stars": 29724,
+          "github_stars_gained": null,
+          "github_forks": 2166,
+          "github_language": "MDX",
+          "github_topics": [
+            "component-library",
+            "components",
+            "library",
+            "reactjs"
+          ],
+          "github_description": "🚀 Beautiful, fast and modern React UI library. (Previously NextUI)",
+          "source_type": "github_repo"
+        },
+        {
+          "title": "element-plus/element-plus",
+          "url": "https://github.com/element-plus/element-plus",
+          "description": "🎉 A Vue.js 3 UI Library made by Element team",
+          "heat": 27554,
+          "heat_type": "stars",
+          "tags": [
+            "component-library",
+            "element-plus",
+            "element-ui",
+            "vue",
+            "vue-components"
+          ],
+          "collected_at": "2026-06-26T17:57:58.288604",
+          "github_stars": 27554,
+          "github_stars_gained": null,
+          "github_forks": 19882,
+          "github_language": "TypeScript",
+          "github_topics": [
+            "component-library",
+            "element-plus",
+            "element-ui",
+            "vue",
+            "vue-components"
+          ],
+          "github_description": "🎉 A Vue.js 3 UI Library made by Element team",
+          "source_type": "github_repo"
+        },
+        {
+          "title": "lucide-icons/lucide",
+          "url": "https://github.com/lucide-icons/lucide",
+          "description": "Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.",
+          "heat": 23151,
+          "heat_type": "stars",
+          "tags": [
+            "feather-icons",
+            "figma",
+            "icons",
+            "react",
+            "svg"
+          ],
+          "collected_at": "2026-06-26T17:57:58.288610",
+          "github_stars": 23151,
+          "github_stars_gained": null,
+          "github_forks": 1433,
+          "github_language": "TypeScript",
+          "github_topics": [
+            "feather-icons",
+            "figma",
+            "icons",
+            "react",
+            "svg"
+          ],
+          "github_description": "Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.",
+          "source_type": "github_repo"
+        },
+        {
+          "title": "vueComponent/ant-design-vue",
+          "url": "https://github.com/vueComponent/ant-design-vue",
+          "description": "🌈  An enterprise-class UI components based on Ant Design and Vue. 🐜",
+          "heat": 21575,
+          "heat_type": "stars",
+          "tags": [
+            "ant",
+            "ant-design",
+            "antd",
+            "antd-vue",
+            "css"
+          ],
+          "collected_at": "2026-06-26T17:57:58.288615",
+          "github_stars": 21575,
+          "github_stars_gained": null,
+          "github_forks": 3908,
+          "github_language": "Vue",
+          "github_topics": [
+            "ant",
+            "ant-design",
+            "antd",
+            "antd-vue",
+            "css"
+          ],
+          "github_description": "🌈  An enterprise-class UI components based on Ant Design and Vue. 🐜",
+          "source_type": "github_repo"
+        },
+        {
+          "title": "tusen-ai/naive-ui",
+          "url": "https://github.com/tusen-ai/naive-ui",
+          "description": "A Vue 3 Component Library. Fairly Complete. Theme Customizable. Uses TypeScript. Fast.",
+          "heat": 18397,
+          "heat_type": "stars",
+          "tags": [
+            "component-library",
+            "ui-components",
+            "vue",
+            "vue-typescript",
+            "vue3-components"
+          ],
+          "collected_at": "2026-06-26T17:57:58.288620",
+          "github_stars": 18397,
+          "github_stars_gained": null,
+          "github_forks": 1849,
+          "github_language": "TypeScript",
+          "github_topics": [
+            "component-library",
+            "ui-components",
+            "vue",
+            "vue-typescript",
+            "vue3-components"
+          ],
+          "github_description": "A Vue 3 Component Library. Fairly Complete. Theme Customizable. Uses TypeScript. Fast.",
+          "source_type": "github_repo"
+        },
+        {
+          "title": "TomSchimansky/CustomTkinter",
+          "url": "https://github.com/TomSchimansky/CustomTkinter",
+          "description": "A modern and customizable python UI-library based on Tkinter",
+          "heat": 13421,
+          "heat_type": "stars",
+          "tags": [
+            "custom",
+            "dark-mode",
+            "dark-theme",
+            "dpi-scaling",
+            "frontend-app"
+          ],
+          "collected_at": "2026-06-26T17:57:58.288626",
+          "github_stars": 13421,
+          "github_stars_gained": null,
+          "github_forks": 1164,
+          "github_language": "Python",
+          "github_topics": [
+            "custom",
+            "dark-mode",
+            "dark-theme",
+            "dpi-scaling",
+            "frontend-app"
+          ],
+          "github_description": "A modern and customizable python UI-library based on Tkinter",
+          "source_type": "github_repo"
+        },
+        {
+          "title": "stenciljs/core",
+          "url": "https://github.com/stenciljs/core",
+          "description": "A toolchain for building scalable, enterprise-ready component systems on top of TypeScript and Web Component standards. Stencil components can be distributed natively to React, Angular, Vue, (+ more) ",
+          "heat": 13102,
+          "heat_type": "stars",
+          "tags": [
+            "custom-element",
+            "design-system",
+            "ionic",
+            "ssg",
+            "ssr"
+          ],
+          "collected_at": "2026-06-26T17:57:58.288632",
+          "github_stars": 13102,
+          "github_stars_gained": null,
+          "github_forks": 844,
+          "github_language": "TypeScript",
+          "github_topics": [
+            "custom-element",
+            "design-system",
+            "ionic",
+            "ssg",
+            "ssr"
+          ],
+          "github_description": "A toolchain for building scalable, enterprise-ready component systems on top of TypeScript and Web Component standards. Stencil components can be distributed natively to React, Angular, Vue, (+ more) and traditional web applications from a single, framework-agnostic codebase.",
+          "source_type": "github_repo"
+        },
+        {
+          "title": "primer/css",
+          "url": "https://github.com/primer/css",
+          "description": "Primer is GitHub's design system. This is the CSS implementation",
+          "heat": 12975,
+          "heat_type": "stars",
+          "tags": [
+            "css",
+            "design-system",
+            "design-systems",
+            "framework",
+            "meta"
+          ],
+          "collected_at": "2026-06-26T17:57:58.288638",
+          "github_stars": 12975,
+          "github_stars_gained": null,
+          "github_forks": 1288,
+          "github_language": "SCSS",
+          "github_topics": [
+            "css",
+            "design-system",
+            "design-systems",
+            "framework",
+            "meta"
+          ],
+          "github_description": "Primer is GitHub's design system. This is the CSS implementation",
+          "source_type": "github_repo"
+        },
+        {
+          "title": "segmentio/evergreen",
+          "url": "https://github.com/segmentio/evergreen",
+          "description": "🌲 Evergreen React UI Framework by Segment",
+          "heat": 12425,
+          "heat_type": "stars",
+          "tags": [
+            "component-library",
+            "design-systems",
+            "evergreen",
+            "react",
+            "segment"
+          ],
+          "collected_at": "2026-06-26T17:57:58.288644",
+          "github_stars": 12425,
+          "github_stars_gained": null,
+          "github_forks": 808,
+          "github_language": "JavaScript",
+          "github_topics": [
+            "component-library",
+            "design-systems",
+            "evergreen",
+            "react",
+            "segment"
+          ],
+          "github_description": "🌲 Evergreen React UI Framework by Segment",
+          "source_type": "github_repo"
+        },
+        {
+          "title": "markmead/hyperui",
+          "url": "https://github.com/markmead/hyperui",
+          "description": "Free Tailwind CSS v4 components for your next project, designed to enhance your web development with the latest features and styles 🚀",
+          "heat": 12139,
+          "heat_type": "stars",
+          "tags": [
+            "accessibility",
+            "components",
+            "css",
+            "design-system",
+            "frontend"
+          ],
+          "collected_at": "2026-06-26T17:57:58.288650",
+          "github_stars": 12139,
+          "github_stars_gained": null,
+          "github_forks": 502,
+          "github_language": "HTML",
+          "github_topics": [
+            "accessibility",
+            "components",
+            "css",
+            "design-system",
+            "frontend"
+          ],
+          "github_description": "Free Tailwind CSS v4 components for your next project, designed to enhance your web development with the latest features and styles 🚀",
+          "source_type": "github_repo"
+        },
+        {
+          "title": "material-components/material-web",
+          "url": "https://github.com/material-components/material-web",
+          "description": "Material Design Web Components",
+          "heat": 11057,
+          "heat_type": "stars",
+          "tags": [
+            "component-",
+            "design-system",
+            "lit",
+            "lit-element",
+            "lit-html"
+          ],
+          "collected_at": "2026-06-26T17:57:58.288655",
+          "github_stars": 11057,
+          "github_stars_gained": null,
+          "github_forks": 1117,
+          "github_language": "SCSS",
+          "github_topics": [
+            "component-",
+            "design-system",
+            "lit",
+            "lit-element",
+            "lit-html"
+          ],
+          "github_description": "Material Design Web Components",
+          "source_type": "github_repo"
+        },
+        {
+          "title": "MudBlazor/MudBlazor",
+          "url": "https://github.com/MudBlazor/MudBlazor",
+          "description": "Blazor Component Library based on Material Design principles. Do more with Blazor, utilizing CSS and keeping JavaScript to a bare minimum.",
+          "heat": 10454,
+          "heat_type": "stars",
+          "tags": [
+            "blazor",
+            "blazor-components",
+            "component",
+            "component-library",
+            "components"
+          ],
+          "collected_at": "2026-06-26T17:57:58.288661",
+          "github_stars": 10454,
+          "github_stars_gained": null,
+          "github_forks": 1650,
+          "github_language": "C#",
+          "github_topics": [
+            "blazor",
+            "blazor-components",
+            "component",
+            "component-library",
+            "components"
+          ],
+          "github_description": "Blazor Component Library based on Material Design principles. Do more with Blazor, utilizing CSS and keeping JavaScript to a bare minimum.",
+          "source_type": "github_repo"
+        },
+        {
+          "title": "unovue/shadcn-vue",
+          "url": "https://github.com/unovue/shadcn-vue",
+          "description": "Vue port of shadcn-ui",
+          "heat": 10178,
+          "heat_type": "stars",
+          "tags": [
+            "accessible",
+            "component-library",
+            "radix-vue",
+            "reka-ui",
+            "shadcn"
+          ],
+          "collected_at": "2026-06-26T17:57:58.288667",
+          "github_stars": 10178,
+          "github_stars_gained": null,
+          "github_forks": 667,
+          "github_language": "TypeScript",
+          "github_topics": [
+            "accessible",
+            "component-library",
+            "radix-vue",
+            "reka-ui",
+            "shadcn"
+          ],
+          "github_description": "Vue port of shadcn-ui",
+          "source_type": "github_repo"
+        }
+      ]
+    }
+  ]
+}

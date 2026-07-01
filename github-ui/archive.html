@@ -3,26 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rylee - 归档</title>
-  <link rel="stylesheet" href="./assets/style.css">
+  <title>Rylee GitHub UI - 归档</title>
+  <link rel="stylesheet" href="../../assets/style.css">
   <meta name="theme-color" content="#0a0a0b">
 </head>
 <body>
   <button class="mobile-toggle" onclick="document.querySelector('.sidebar').classList.toggle('open')" aria-label="Toggle menu">&#9776;</button>
 
   <aside class="sidebar">
-    <a href="./" class="sidebar-brand">
-      <img src="./assets/logo.png" alt="Rylee" class="logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+    <a href="../../" class="sidebar-brand">
+      <img src="../../assets/logo.png" alt="Rylee" class="logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
       <span class="logo-fallback" style="display:none"></span>
       <span>Rylee</span>
     </a>
     <nav class="sidebar-nav">
       <div class="sidebar-section-label">频道</div>
-      <a href="./" class="sidebar-link">
+      <a href="../../" class="sidebar-link">
         <span class="sidebar-icon">&#9679;</span>
         <span>热点追踪</span>
       </a>
-      <a href="./github-ui/" class="sidebar-link">
+      <a href="../../github-ui/" class="sidebar-link active">
         <span class="sidebar-icon">&#9733;</span>
         <span>GitHub 排行</span>
       </a>
@@ -35,17 +35,17 @@
   <div class="content-wrapper">
   <main class="container">
     <nav class="breadcrumb">
-      <a href="./">热点追踪</a>
+      <a href="../../github-ui/">GitHub 排行</a>
       <span class="sep">&#8250;</span>
       <span class="current">归档</span>
     </nav>
     <header class="archive-header">
-      <h1>归档</h1>
+      <h1>GitHub UI 归档</h1>
       <p>所有期数，按时间倒序排列</p>
     </header>
 
     <div id="archive-list">
-      <p style="text-align:center; color:var(--text-tertiary); padding:var(--s8);">加载中...</p>
+      <p style="text-align:center; color:var(--text-tertiary); padding:var(--s8);">暂无期数</p>
     </div>
   </main>
 
@@ -58,7 +58,7 @@
   </div>
 
   <script>
-    fetch('./index.json')
+    fetch('../../data/github-index.json')
       .then(function(r) { return r.json(); })
       .then(function(data) {
         var list = document.getElementById('archive-list');
@@ -76,7 +76,7 @@
       })
       .catch(function() {
         document.getElementById('archive-list').innerHTML =
-          '<p style="text-align:center; color:var(--accent);">加载归档失败</p>';
+          '<p style="text-align:center; color:var(--accent);">暂无归档数据</p>';
       });
   </script>
 </body>

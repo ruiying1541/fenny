@@ -1,0 +1,132 @@
+{
+  "week": "2026-W26",
+  "issue_number": 1,
+  "published_at": "2026-06-26T17:58:09+08:00",
+  "top_5_github": [
+    {
+      "rank": 1,
+      "title": "mui/material-ui",
+      "source": "GitHub",
+      "source_url": "https://github.com/mui/material-ui",
+      "heat_score": 95,
+      "one_liner": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
+      "why_matters": "作为 React 生态中最成熟的 Material Design 实现,MUI 为产品设计师提供了开箱即用的设计系统,帮助快速搭建符合现代设计规范的应用界面。近 10 万 stars 的背后是庞大的社区支持和持续迭代的组件质量,使其成为企业级项目的黄金标准。",
+      "category": "Design System",
+      "github_stars": 98475,
+      "github_stars_gained": null,
+      "github_forks": 32595,
+      "github_language": "JavaScript",
+      "github_topics": [
+        "design-system",
+        "material-design",
+        "material-ui",
+        "react",
+        "react-components"
+      ],
+      "gold_quote": "React设计系统王者"
+    },
+    {
+      "rank": 2,
+      "title": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "source": "GitHub",
+      "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "heat_score": 94,
+      "one_liner": "An AI SKILL that provide design intelligence for building professional UI/UX across multiple platforms",
+      "why_matters": "这是 AI 与设计工具的深度结合典范,为设计师提供跨平台的智能设计辅助能力。在 AI Native 时代,设计师可以通过这类技能工具大幅提升设计效率,让 AI 理解设计意图并自动生成高质量的 UI/UX 方案,重新定义设计工作流。",
+      "category": "Design Tool",
+      "github_stars": 96676,
+      "github_stars_gained": null,
+      "github_forks": 10167,
+      "github_language": "Python",
+      "github_topics": [
+        "ai-skills",
+        "antigravity",
+        "claude",
+        "claude-code",
+        "codex"
+      ],
+      "gold_quote": "AI驱动的设计智能"
+    },
+    {
+      "rank": 3,
+      "title": "DavidHDev/react-bits",
+      "source": "GitHub",
+      "source_url": "https://github.com/DavidHDev/react-bits",
+      "heat_score": 88,
+      "one_liner": "An open source collection of animated, interactive & fully customizable React components for building memorable websites.",
+      "why_matters": "动画和交互是提升用户体验的关键差异化因素,这个项目汇集了大量开箱即用的动画组件。设计师可以快速为网站增添生动感和记忆点,特别适合需要打造品牌化、情感化体验的产品。",
+      "category": "Animation Library",
+      "github_stars": 41936,
+      "github_stars_gained": null,
+      "github_forks": 1922,
+      "github_language": "JavaScript",
+      "github_topics": [
+        "3d",
+        "animations",
+        "component-library",
+        "components",
+        "components-library"
+      ],
+      "gold_quote": "动画让设计更生动"
+    },
+    {
+      "rank": 4,
+      "title": "saadeghi/daisyui",
+      "source": "GitHub",
+      "source_url": "https://github.com/saadeghi/daisyui",
+      "heat_score": 87,
+      "one_liner": "The most popular, free and open-source Tailwind CSS component library",
+      "why_matters": "DaisyUI 是 Tailwind CSS 生态中最受欢迎的组件库,为原子化 CSS 提供了高层次的设计抽象。设计师可以在保持 Tailwind 灵活性的同时,使用语义化的组件名称快速构建一致的界面,完美平衡了定制性和开发效率。",
+      "category": "UI Components",
+      "github_stars": 41178,
+      "github_stars_gained": null,
+      "github_forks": 1635,
+      "github_language": "Svelte",
+      "github_topics": [
+        "component",
+        "component-library",
+        "components",
+        "css",
+        "css-components"
+      ],
+      "gold_quote": "Tailwind组件库王牌"
+    },
+    {
+      "rank": 5,
+      "title": "vuetifyjs/vuetify",
+      "source": "GitHub",
+      "source_url": "https://github.com/vuetifyjs/vuetify",
+      "heat_score": 86,
+      "one_liner": "Vue Component Framework",
+      "why_matters": "Vuetify 是 Vue 生态中最完整的 Material Design 实现,为 Vue 开发者提供了丰富的组件和工具。对于选择 Vue 技术栈的团队,Vuetify 能够帮助设计师和开发者快速落地设计规范,其活跃的社区保证了长期的维护和支持。",
+      "category": "Design System",
+      "github_stars": 41003,
+      "github_stars_gained": null,
+      "github_forks": 7131,
+      "github_language": "TypeScript",
+      "github_topics": [
+        "javascript",
+        "material",
+        "material-components",
+        "material-design",
+        "material-theme"
+      ],
+      "gold_quote": "Vue的Material设计"
+    }
+  ],
+  "trend_insight": {
+    "summary": "本周 GitHub UI 趋势呈现三大特征: 1) 成熟组件库生态稳固,Material UI、DaisyUI、Vuetify 等头部项目持续领跑; 2) AI 与设计工具融合加速,智能辅助设计成为新方向; 3) 框架多样性明显,React、Vue、Svelte 等各生态都有强势组件库,设计师选择空间更大。",
+    "keywords": [
+      "Material Design",
+      "AI Design Intelligence",
+      "Component Library",
+      "Tailwind CSS",
+      "Design System"
+    ],
+    "related_trends": [
+      "AI 驱动的设计自动化",
+      "原子化 CSS 与组件库的融合",
+      "跨框架设计系统标准化"
+    ]
+  }
+}

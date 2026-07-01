@@ -9,28 +9,39 @@
   <meta name="theme-color" content="#0a0a0b">
 </head>
 <body>
-  <nav class="nav">
-    <a href="./" class="nav-brand">
+  <button class="mobile-toggle" onclick="document.querySelector('.sidebar').classList.toggle('open')" aria-label="Toggle menu">&#9776;</button>
+
+  <aside class="sidebar">
+    <a href="./" class="sidebar-brand">
       <img src="./assets/logo.png" alt="Rylee" class="logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
       <span class="logo-fallback" style="display:none"></span>
       <span>Rylee</span>
     </a>
-    <div class="nav-links">
-      <a href="./" class="active">首页</a>
-      <a href="./archive.html">归档</a>
+    <nav class="sidebar-nav">
+      <div class="sidebar-section-label">频道</div>
+      <a href="./" class="sidebar-link active">
+        <span class="sidebar-icon">&#9679;</span>
+        <span>热点追踪</span>
+      </a>
+      <a href="./github-ui/" class="sidebar-link">
+        <span class="sidebar-icon">&#9733;</span>
+        <span>GitHub 排行</span>
+      </a>
+    </nav>
+    <div class="sidebar-footer">
+      <p class="sidebar-footer-text">Powered by CodeFlicker</p>
     </div>
-  </nav>
+  </aside>
 
+  <div class="content-wrapper">
   <main class="container">
     <header class="hero">
-      <div class="hero-badge"><span class="dot"></span> 第 1 期</div>
+      <div class="hero-badge"><span class="dot"></span> 月刊</div>
       <h1 class="hero-title"><span class="accent-word">AI 原生</span>设计</h1>
       <div class="hero-meta">
-        <span>Rylee #1</span>
+        <span>2026-06</span>
         <span class="sep"></span>
-        <span>2026-W26</span>
-        <span class="sep"></span>
-        <span>2026-06-25</span>
+        <span>2026.06 月刊</span>
       </div>
     </header>
 
@@ -332,7 +343,7 @@
     </section>
 
     <nav class="issue-nav">
-      <a href="./archive.html" class="nav-prev">← 归档</a>
+      <a href="./archive.html" class="nav-center">查看全部 <span class="arrow-right">&rarr;</span></a>
     </nav>
   </main>
 
@@ -342,5 +353,6 @@
       <span class="footer-text">Powered by CodeFlicker</span>
     </div>
   </footer>
+  </div>
 </body>
 </html>
