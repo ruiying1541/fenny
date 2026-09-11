@@ -1,0 +1,163 @@
+{
+  "week": "2026-W37",
+  "collected_at": "2026-09-11T14:00:00+08:00",
+  "total_items": 13,
+  "items": [
+    {
+      "title": "苹果 iPhone Duo 折叠屏发布：4:3 屏幕 SwiftUI 适配",
+      "source": "钛媒体",
+      "url": "https://www.tmtpost.com/8130488.html",
+      "description": "苹果9月10日发布会推出首款折叠屏iPhone，展开后4:3屏幕比例，SwiftUI框架支持跨设备自适应。设计上选择矮胖形态承接成熟iPad生态。",
+      "heat": 96,
+      "heat_type": "热度评分",
+      "category": "移动设计",
+      "one_liner": "苹果首款折叠屏iPhone采用4:3比例设计，SwiftUI跨设备适配",
+      "why_it_matters": "折叠屏iPhone引入全新UI/UX范式，设计师需要重新思考双屏导航、内容布局和交互模式。4:3比例的选择意味着Apple选择承接iPad生态而非创造全新比例，这降低了开发适配难度但也定义了折叠屏的设计边界。",
+      "collected_at": "2026-09-11T14:00:00+08:00"
+    },
+    {
+      "title": "比特无限完成Pre-A轮融资：AI-native 3D设计赛道爆发",
+      "source": "科创板日报",
+      "url": "https://www.chinastarmarket.cn/detail/2478686",
+      "description": "上海AI初创公司比特无限聚焦AI生成矢量3D模型，ECCV 2026 CAD Challenge以96.39分夺冠，半年内连续4轮融资。自研Arko系列基础模型支持文本/图像/点云生成可编辑工业级STEP/STL文件。",
+      "heat": 92,
+      "heat_type": "热度评分",
+      "category": "AI设计工具",
+      "one_liner": "AI-native 3D设计初创半年4轮融资，ECCV夺冠验证工业级精度",
+      "why_it_matters": "AI生成3D模型赛道正经历资本密集涌入，比特无限ECCV夺冠证明AI在工业级CAD精度上取得突破。这标志着AI设计工具从2D UI设计向3D空间设计扩展，对产品设计、工业设计、游戏设计等多个领域有深远影响。",
+      "collected_at": "2026-09-11T14:00:00+08:00"
+    },
+    {
+      "title": "DeepSeek V4.1 Flash 发布同步筹备科创板IPO",
+      "source": "科创板日报",
+      "url": "https://www.chinastarmarket.cn/detail/2478606",
+      "description": "DeepSeek计划9月10日前后发布V4.1 Flash模型，同时筹备科创板上市。作为中国AI领域的标杆企业，其IPO进程将影响整个AI应用生态包括AI设计工具的发展。",
+      "heat": 90,
+      "heat_type": "热度评分",
+      "category": "AI基础设施",
+      "one_liner": "中国AI巨头DeepSeek发布新模型同时筹备科创板上市",
+      "why_it_matters": "DeepSeek作为'中国版OpenAI'的标杆企业，其模型迭代和上市进程直接影响AI设计工具的底层能力。V4.1 Flash的多模态能力提升将推动设计工具中AI生成和理解能力的跃升，科创板上市则为AI应用赛道注入更多资本活力。",
+      "collected_at": "2026-09-11T14:00:00+08:00"
+    },
+    {
+      "title": "小米澎湃OS 4 柔光玻璃设计语言发布",
+      "source": "新浪科技",
+      "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-08-14/doc-ininhhrn4204786.shtml",
+      "description": "小米澎湃OS4以'生命感美学'为核心设计语言，首发柔光玻璃交互材质，可感知屏幕内容自动调节面板通透度，点按拖拽伴随跟随式流动光效。底层Rust重写提升流畅度。",
+      "heat": 89,
+      "heat_type": "热度评分",
+      "category": "操作系统设计",
+      "one_liner": "小米澎湃OS4推出柔光玻璃设计语言，底层Rust重写",
+      "why_it_matters": "柔光玻璃设计语言是对苹果液态玻璃的回应，代表国产操作系统在设计语言上的独立探索。感知环境色自适应、流动光效等交互细节，展示了AI时代操作系统设计的新方向——从静态UI走向感知式动态UI。",
+      "collected_at": "2026-09-11T14:00:00+08:00"
+    },
+    {
+      "title": "苹果 iPhone 18 Pro 系列发布：设计大升级",
+      "source": "Apple中国",
+      "url": "https://www.apple.com.cn/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
+      "description": "苹果发布iPhone 18 Pro与Pro Max，摄像头、性能和电池均实现重大升级。9月12日预购，18日发售。搭载iOS 27液态玻璃设计系统。",
+      "heat": 88,
+      "heat_type": "热度评分",
+      "category": "移动设计",
+      "one_liner": "iPhone 18 Pro发布，搭载iOS 27液态玻璃设计系统",
+      "why_it_matters": "iPhone 18 Pro是搭载完整液态玻璃设计系统的首款主力机型，国内App需要针对新设计语言进行适配。Pro系列的相机排布和材质变化也影响了保护壳和App界面的设计规范。",
+      "collected_at": "2026-09-11T14:00:00+08:00"
+    },
+    {
+      "title": "华为 HarmonyOS 7 正式发布：建议开发者适配API 26",
+      "source": "华为开发者联盟",
+      "url": "https://developer.huawei.com/consumer/cn/notice",
+      "description": "华为9月7日宣布HarmonyOS 7正式发布，建议开发者开展应用适配及API 26升级评估。鸿蒙应用开发者激励计划2026持续至9月30日，完成鸿蒙应用开发可获现金激励。",
+      "heat": 87,
+      "heat_type": "热度评分",
+      "category": "操作系统设计",
+      "one_liner": "HarmonyOS 7正式发布，鸿蒙生态设计适配进入新阶段",
+      "why_it_matters": "HarmonyOS 7的发布意味着鸿蒙原生应用生态进入新阶段，设计师需要适配全新的鸿蒙设计规范。开发者激励计划加速了鸿蒙应用生态建设，对国内UI设计行业的需求结构产生影响。",
+      "collected_at": "2026-09-11T14:00:00+08:00"
+    },
+    {
+      "title": "优设9月精选AI和设计干货合集：5款AI工具推荐",
+      "source": "优设UISDC",
+      "url": "https://www.uisdc.com/agents-at-work",
+      "description": "优设发布9月精选，推荐5款AI设计工具：Doop人机协作设计画板、Quiet Signal AI设计Skill合集、Particle Studio图片转粒子场、Phone Harness编程Agent操控真实iPhone、herdrm Agent原生控制台。",
+      "heat": 86,
+      "heat_type": "热度评分",
+      "category": "AI设计工具",
+      "one_liner": "优设9月精选推荐5款AI设计工具，覆盖协作/视觉/自动化/Agent管理",
+      "why_it_matters": "Doop实现了MCP客户端与人类在同一个Canvas上协作设计，代表着设计工具从单人工具向人机协作平台演进。Quiet Signal将设计规范编码为AI Skill，让AI设计有'身份'和质量标准。这些工具反映了中国设计社区对AI协作工作流的积极探索。",
+      "collected_at": "2026-09-11T14:00:00+08:00"
+    },
+    {
+      "title": "iOS微信适配液态玻璃：iOS 27系统级能力驱动",
+      "source": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260903A0BLAY00",
+      "description": "微信在iOS 27上适配液态玻璃设计语言，但实际是系统级渲染能力而非App端独立实现。引发关于国产App如何深度适配苹果新设计语言的讨论。",
+      "heat": 85,
+      "heat_type": "热度评分",
+      "category": "移动设计",
+      "one_liner": "微信在iOS 27适配液态玻璃，系统级渲染引发国产App适配讨论",
+      "why_it_matters": "微信作为中国最重要的超级App，其液态玻璃适配进程代表了国产App对苹果新设计语言的响应速度。系统级渲染vs App端实现的差异，暴露了国产App在跨平台设计一致性上的挑战。",
+      "collected_at": "2026-09-11T14:00:00+08:00"
+    },
+    {
+      "title": "大厂全线押注AI编程，Vibe Coding掀起全民造应用浪潮",
+      "source": "钛媒体",
+      "url": "https://www.tmtpost.com/8004756.html",
+      "description": "钛媒体深度报道Vibe Coding趋势，分析大厂全线押注AI编程如何降低软件生产门槛，设计师和产品经理成为Vibe Coding重度用户，一场关于创作者生态和行业价值分配的深层重构。",
+      "heat": 84,
+      "heat_type": "热度评分",
+      "category": "设计转代码",
+      "one_liner": "Vibe Coding让设计师从画图转向造应用，全民造应用浪潮重塑行业价值分配",
+      "why_it_matters": "Vibe Coding正在改变设计师的工作边界——从交付设计稿到直接交付可运行的应用。这不仅是工具升级，而是创作者角色和生产关系的深层重构。设计师需要掌握AI编程能力，行业价值分配将重新洗牌。",
+      "collected_at": "2026-09-11T14:00:00+08:00"
+    },
+    {
+      "title": "2026年UI/UX设计岗位需求锐减30%：AI工具冲击就业市场",
+      "source": "wsisp.com",
+      "url": "https://www.wsisp.com/helps/64398.html",
+      "description": "数据显示纯执行类UI设计岗位需求下降30%，而AI体验设计师薪资逆势上涨。大模型能直接生成前端代码、自动优化用户体验，行业面临结构性转型。",
+      "heat": 83,
+      "heat_type": "热度评分",
+      "category": "UX研究",
+      "one_liner": "纯执行类UI设计岗位需求降30%，AI体验设计师薪资逆势上涨",
+      "why_it_matters": "这组数据量化了AI对设计行业的冲击程度。纯执行岗位萎缩与AI体验设计岗位需求增长的分化，指明了设计师转型的方向：从执行者转向AI协作的设计策略师。这对设计教育和职业规划有直接指导价值。",
+      "collected_at": "2026-09-11T14:00:00+08:00"
+    },
+    {
+      "title": "优设Vibe Coding教程：设计师如何用AI编程从头完成项目",
+      "source": "优设UISDC",
+      "url": "https://www.uisdc.com/archives",
+      "description": "优设发布9月3日文章，指导没有完整开发经验的设计师如何通过Vibe Coding从头到尾完成一个项目，标志着国内设计社区对AI编程的系统化教学推进。",
+      "heat": 82,
+      "heat_type": "热度评分",
+      "category": "设计转代码",
+      "one_liner": "优设推出Vibe Coding系统教程，设计师无开发经验也能完成项目",
+      "why_it_matters": "优设作为中国最大的设计师社区推出Vibe Coding系统教程，标志着AI编程能力正成为设计师的标准技能。从'学AI设计'到'用AI编程'的转变，反映了设计行业技能要求的结构性升级。",
+      "collected_at": "2026-09-11T14:00:00+08:00"
+    },
+    {
+      "title": "妙多于7月31日停止服务：AI设计工具赛道洗牌",
+      "source": "妙多官网",
+      "url": "https://www.miaoduo.com/",
+      "description": "国内首个AI原生设计工具妙多宣布2026年7月31日停止服务，用户需在11月1日前导出设计文件。作为曾全球发布的AI驱动协同设计软件，其关停标志着AI设计工具赛道进入洗牌期。",
+      "heat": 80,
+      "heat_type": "热度评分",
+      "category": "AI设计工具",
+      "one_liner": "国内首个AI原生设计工具妙多关停，赛道洗牌期来临",
+      "why_it_matters": "妙多的关停说明AI设计工具仅有'AI加持'不足以建立可持续商业模式。Figma等传统工具的AI化迭代正在挤压纯AI设计工具的生存空间，赛道进入以生态壁垒和用户粘性为核心竞争力的洗牌期。",
+      "collected_at": "2026-09-11T14:00:00+08:00"
+    },
+    {
+      "title": "AI生成3D模型赛道多路并进：字节腾讯群核相继入局",
+      "source": "科创板日报",
+      "url": "https://www.chinastarmarket.cn/detail/2478686",
+      "description": "AI生成矢量3D模型赛道资本密集涌入，Meshy AI、数美万物、VAST等获大额融资，字节跳动、腾讯、群核科技相继发布3D生成模型。中信建投指出物理AI正接棒成为下一阶段AI增长核心变量。",
+      "heat": 79,
+      "heat_type": "热度评分",
+      "category": "AI设计工具",
+      "one_liner": "字节腾讯群核科技相继入局AI 3D生成，赛道全面爆发",
+      "why_it_matters": "大厂集体入局AI 3D生成赛道，预示着产品设计将从2D界面扩展到3D空间。随着Vision Pro生态成熟和AI 3D生成能力突破，空间计算设计正从概念走向大规模实践。",
+      "collected_at": "2026-09-11T14:00:00+08:00"
+    }
+  ]
+}

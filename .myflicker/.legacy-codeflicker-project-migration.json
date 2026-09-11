@@ -1,0 +1,15 @@
+{
+  "version": 5,
+  "source": "codeflicker",
+  "projectPath": "/Users/fenny/fenny",
+  "migratedAt": "2026-09-09T08:22:22.563Z",
+  "result": {
+    "moved": true,
+    "merged": false,
+    "conflicts": 0,
+    "rulesCopied": 0,
+    "rulesSkipped": 0,
+    "commandSkillsCreated": 0,
+    "commandSkillsSkipped": 0
+  }
+}

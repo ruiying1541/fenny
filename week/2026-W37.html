@@ -4,26 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rylee | 2026-W37 | Issue #2</title>
-  <link rel="stylesheet" href="./assets/style.css">
-  <meta name="description" content="Rylee - 产品设计 AI 热点周报。每周由 AI 精选 20 条设计热点（国内 10 条 + 海外 10 条）。">
+  <link rel="stylesheet" href="../assets/style.css">
   <meta name="theme-color" content="#0a0a0b">
 </head>
 <body>
   <button class="mobile-toggle" onclick="document.querySelector('.sidebar').classList.toggle('open')" aria-label="Toggle menu">&#9776;</button>
 
   <aside class="sidebar">
-    <a href="./" class="sidebar-brand">
-      <img src="./assets/logo.png" alt="Rylee" class="logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+    <a href="../" class="sidebar-brand">
+      <img src="../assets/logo.png" alt="Rylee" class="logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
       <span class="logo-fallback" style="display:none"></span>
       <span>Rylee</span>
     </a>
     <nav class="sidebar-nav">
       <div class="sidebar-section-label">频道</div>
-      <a href="./" class="sidebar-link active">
+      <a href="../" class="sidebar-link active">
         <span class="sidebar-icon">&#9679;</span>
         <span>热点追踪</span>
       </a>
-      <a href="./github-ui/" class="sidebar-link">
+      <a href="../github-ui/" class="sidebar-link">
         <span class="sidebar-icon">&#9733;</span>
         <span>GitHub 排行</span>
       </a>
@@ -35,6 +34,11 @@
 
   <div class="content-wrapper">
   <main class="container">
+    <nav class="breadcrumb">
+      <a href="../">热点追踪</a>
+      <span class="sep">&#8250;</span>
+      <span class="current">2026-W37</span>
+    </nav>
     <header class="hero">
       <div class="hero-badge"><span class="dot"></span> 周刊</div>
       <h1 class="hero-title"><span class="accent-word">折叠屏 UI</span>范式与 AI 设计工具共振</h1>
@@ -47,14 +51,13 @@
       </div>
     </header>
 
-    <!-- ======== 国内热点 TOP 10 ======== -->
+    <!-- ======== 国内热点 TOP 10 (详情) ======== -->
     <div class="region-section cn">
       <div class="region-header">
         <span class="region-icon cn">CN</span>
         <span class="region-label">国内热点</span>
       </div>
       <section class="hotspots">
-
         <article class="hotspot-card top-3">
           <div class="hotspot-rank">1</div>
           <div class="hotspot-content">
@@ -65,6 +68,11 @@
               <span class="hotspot-score">89</span>
             </div>
             <p class="hotspot-one-liner">Apple's first foldable iPhone adopts 4:3 aspect ratio with SwiftUI cross-device adaptation</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>折叠屏 iPhone 引入全新 UI/UX 范式，设计师需重新思考双屏导航、内容布局和交互模式。4:3 比例意味着 Apple 选择承接 iPad 生态而非创造全新比例，降低了适配难度但也定义了折叠屏设计边界。这对所有 iOS 应用的设计规范都将产生深远影响。</p>
+            </div>
+            <a href="https://www.tmtpost.com/8130488.html" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -78,6 +86,11 @@
               <span class="hotspot-score">85</span>
             </div>
             <p class="hotspot-one-liner">Vibe Coding empowers designers to ship apps directly, reshaping industry value chains</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>Vibe Coding 正在改变设计师的工作边界——从交付设计稿到直接交付可运行应用。设计师和产品经理成为重度用户，这不仅是工具升级，而是创作者角色和生产关系的深层重构。行业价值分配将重新洗牌，设计师需要掌握 AI 编程能力才能在新时代保持竞争力。</p>
+            </div>
+            <a href="https://www.tmtpost.com/8004756.html" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -91,6 +104,11 @@
               <span class="hotspot-score">81</span>
             </div>
             <p class="hotspot-one-liner">AI-native 3D design startup wins ECCV challenge with industrial-grade precision, raises 4 rounds</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>比特无限 ECCV 夺冠证明 AI 在工业级 CAD 精度上取得突破，标志着 AI 设计工具从 2D UI 向 3D 空间设计扩展。半年内连续 4 轮融资反映资本对 AI 3D 生成赛道的高度看好，对产品设计、工业设计、游戏设计等多个领域有深远影响。</p>
+            </div>
+            <a href="https://www.chinastarmarket.cn/detail/2478686" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -104,6 +122,11 @@
               <span class="hotspot-score">81</span>
             </div>
             <p class="hotspot-one-liner">Xiaomi HyperOS 4 introduces soft-glass design language with Rust-based rendering engine</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>柔光玻璃设计语言是对苹果液态玻璃的回应，代表国产操作系统在设计语言上的独立探索。感知环境色自适应、流动光效等交互细节展示了 AI 时代操作系统设计的新方向——从静态 UI 走向感知式动态 UI。底层 Rust 重写也为流畅度提供了工程保障。</p>
+            </div>
+            <a href="https://finance.sina.com.cn/tech/mobile/n/n/2026-08-14/doc-ininhhrn4204786.shtml" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -117,6 +140,11 @@
               <span class="hotspot-score">80</span>
             </div>
             <p class="hotspot-one-liner">HarmonyOS 7 launches with developer incentives, pushing native app ecosystem forward</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>HarmonyOS 7 发布意味着鸿蒙原生应用生态进入新阶段，设计师需要适配全新的鸿蒙设计规范。开发者激励计划加速了生态建设，对国内 UI 设计行业的需求结构产生直接影响——鸿蒙设计适配正成为新的就业方向。</p>
+            </div>
+            <a href="https://developer.huawei.com/consumer/cn/notice" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -130,6 +158,11 @@
               <span class="hotspot-score">80</span>
             </div>
             <p class="hotspot-one-liner">iPhone 18 Pro ships with full Liquid Glass design system on iOS 27</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>iPhone 18 Pro 是搭载完整液态玻璃设计系统的首款主力机型，国内 App 需要针对新设计语言进行适配。Pro 系列的相机排布和材质变化也影响了保护壳和 App 界面的设计规范，对整个 iOS 设计生态有示范效应。</p>
+            </div>
+            <a href="https://www.apple.com.cn/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -143,6 +176,11 @@
               <span class="hotspot-score">79</span>
             </div>
             <p class="hotspot-one-liner">ByteDance, Tencent, and others race into AI 3D generation, signaling spatial computing shift</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>大厂集体入局 AI 3D 生成赛道，预示产品设计将从 2D 界面扩展到 3D 空间。随着 Vision Pro 生态成熟和 AI 3D 生成能力突破，空间计算设计正从概念走向大规模实践。中信建投指出物理 AI 正接棒成为下一阶段 AI 增长核心变量。</p>
+            </div>
+            <a href="https://www.chinastarmarket.cn/detail/2478686" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -156,6 +194,11 @@
               <span class="hotspot-score">79</span>
             </div>
             <p class="hotspot-one-liner">DeepSeek launches V4.1 Flash model while preparing for STAR Market IPO</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>DeepSeek 作为中国 AI 标杆企业，其模型迭代和上市进程直接影响 AI 设计工具的底层能力。V4.1 Flash 的多模态能力提升将推动设计工具中 AI 生成和理解能力的跃升，科创板上市则为整个 AI 应用赛道注入更多资本活力。</p>
+            </div>
+            <a href="https://www.chinastarmarket.cn/detail/2478606" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -169,6 +212,11 @@
               <span class="hotspot-score">76</span>
             </div>
             <p class="hotspot-one-liner">UISDC curates 5 AI design tools spanning collaboration, visuals, and agent control</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>Doop 实现了 MCP 客户端与人类在同一 Canvas 上协作设计，代表设计工具从单人工具向人机协作平台演进。Quiet Signal 将设计规范编码为 AI Skill，让 AI 设计有"身份"和质量标准。这些工具反映了中国设计社区对 AI 协作工作流的积极探索。</p>
+            </div>
+            <a href="https://www.uisdc.com/agents-at-work" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -182,20 +230,23 @@
               <span class="hotspot-score">76</span>
             </div>
             <p class="hotspot-one-liner">Pure execution UI roles drop 30% while AI experience designer salaries rise</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>这组数据量化了 AI 对设计行业的冲击程度。纯执行岗位萎缩与 AI 体验设计岗位需求增长的分化，指明了设计师转型方向：从执行者转向 AI 协作的设计策略师。这对设计教育和职业规划有直接指导价值，也为团队招聘结构调整提供了参考。</p>
+            </div>
+            <a href="https://www.wsisp.com/helps/64398.html" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
-
       </section>
     </div>
 
-    <!-- ======== 海外热点 TOP 10 ======== -->
+    <!-- ======== 海外热点 TOP 10 (详情) ======== -->
     <div class="region-section global">
       <div class="region-header">
         <span class="region-icon global">GL</span>
         <span class="region-label">海外热点</span>
       </div>
       <section class="hotspots">
-
         <article class="hotspot-card top-3">
           <div class="hotspot-rank">1</div>
           <div class="hotspot-content">
@@ -206,6 +257,11 @@
               <span class="hotspot-score">93</span>
             </div>
             <p class="hotspot-one-liner">Figma transforms design-to-code with Code Layers, Motion, generative plugins, and node-based Weave workflows</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>Config 2026 是今年设计工具领域最重磅更新。Code Layers 将代码作为设计材料直接置于画布上，一键转换设计层为可交互代码层；Motion 内置时间轴和关键帧让动效设计原生集成；Generative Plugins 让用户用自然语言描述即可构建自定义工具；Weave 将节点式生成工作流引入画布。这四项功能共同重新定义了设计师的工作方式。</p>
+            </div>
+            <a href="https://www.figma.com/blog/config-2026-recap/" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -219,6 +275,11 @@
               <span class="hotspot-score">89</span>
             </div>
             <p class="hotspot-one-liner">Apple's first foldable iPhone introduces dual-screen UI paradigms with Group Labs for designers</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>iPhone Duo 的折叠形态引入了全新的 UI/UX 范式——部分折叠时主屏幕横跨双屏，设计师需要重新思考导航模式、内容布局和交互模型。Apple 专门举办 Group Labs 邀请设计师和开发者讨论新形态因子的应用设计，这标志着折叠屏 UI 设计正式成为设计师必须面对的新课题。</p>
+            </div>
+            <a href="https://www.apple.com/iphone-duo/" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -232,6 +293,11 @@
               <span class="hotspot-score">85</span>
             </div>
             <p class="hotspot-one-liner">Framer's AI Agents can autonomously design, build, and publish complete websites</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>Framer AI Agents 标志着网站设计从"人设计+AI辅助"到"AI设计+人审核"的范式转变。登上 Product Hunt 周榜单说明市场对 AI 自主设计能力的接受度正在提升。设计师的角色从执行者转向策展人和创意总监，这对整个行业的工作流和人才结构有深远影响。</p>
+            </div>
+            <a href="https://www.producthunt.com/leaderboard/weekly/2026/37" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -245,6 +311,11 @@
               <span class="hotspot-score">83</span>
             </div>
             <p class="hotspot-one-liner">Landmark report reveals 50% of designers have shipped AI-assisted code to production</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>这份报告用数据揭示了 AI 在设计领域的真实渗透率：50% 的受访设计师已将 AI 辅助生成的代码上线到生产环境。AI 已从孤立的探索阶段扩展到覆盖整个设计项目生命周期。增长最快的领域是代码生成、文档编写、设计 QA 和开发交接——这意味着设计师与开发者的协作方式正在被 AI 重塑。</p>
+            </div>
+            <a href="https://stateofaidesign.com/chapters/tools" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -258,6 +329,11 @@
               <span class="hotspot-score">81</span>
             </div>
             <p class="hotspot-one-liner">Lucet designs missing states and patterns for AI-native interfaces</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>随着 AI 原生界面越来越普及，传统 UI 模式库已无法覆盖 AI 特有的交互状态——如不确定性展示、流式生成、错误修复等。Lucet 专注于为 AI 界面设计缺失状态和模式，填补了 AI 原生设计模式库的空白，为构建 AI 产品的设计师提供了关键参考。</p>
+            </div>
+            <a href="https://lucet.design" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -271,6 +347,11 @@
               <span class="hotspot-score">80</span>
             </div>
             <p class="hotspot-one-liner">OpenAI's Agents API enables autonomous AI agents that interact with UIs</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>Agents API 让开发者能构建执行多步骤任务的自主 AI Agent，包括 UI 交互。这对界面设计有重大启示：界面不再只为人设计，还需要为 AI Agent 设计——即 Agentic UI。设计师需要考虑双读者问题：人类用户和 AI Agent 如何共存于同一界面。</p>
+            </div>
+            <a href="https://developers.openai.com/api/docs/guides/agents-api/overview" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -284,6 +365,11 @@
               <span class="hotspot-score">80</span>
             </div>
             <p class="hotspot-one-liner">JudgmentKit helps AI agents understand user context and repair interface mismatches</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>AI 生成界面不匹配用户意图是当前 AI 设计工具的核心痛点之一。JudgmentKit 让 AI Agent 理解用户工作上下文、选择正确界面并修复不匹配，直击 AI 自主设计的质量保障问题。这代表了 AI 设计工具从"能生成"到"能判断"的进化方向。</p>
+            </div>
+            <a href="https://judgmentkit.ai" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -297,6 +383,11 @@
               <span class="hotspot-score">78</span>
             </div>
             <p class="hotspot-one-liner">Shopify migrates Shop app from React Native to native Swift and Kotlin for UX fidelity</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>Shopify 作为 React Native 的最大企业支持者之一，回归原生开发对跨平台设计社区是重大信号。团队引用平台特有 UX 保真度、性能和原生设计遵循度作为关键原因。这迫使设计团队重新评估：是投资平台原生 UI 还是跨平台统一设计？这一决策将影响未来数年的设计团队架构。</p>
+            </div>
+            <a href="https://shopify.engineering/back-to-native" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -310,6 +401,11 @@
               <span class="hotspot-score">76</span>
             </div>
             <p class="hotspot-one-liner">20,000+ curated UI designs serving as reference library for both AI agents and human designers</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>Kombai Gallery 同时服务于人类设计师和 AI Agent 的 UI 参考需求，bridging 策展设计参考与 Agentic UI 构建之间的鸿沟。这预示着设计灵感库的新形态——不仅是给人看的，也是给 AI 读的。设计参考库正在成为 AI 生成界面的训练素材和上下文。</p>
+            </div>
+            <a href="https://kombai.com/" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -323,9 +419,13 @@
               <span class="hotspot-score">74</span>
             </div>
             <p class="hotspot-one-liner">Heated community debate: is traditional Figma prototyping being replaced by AI tools?</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>Reddit 上 265 赞、198 评论的激烈讨论反映了设计社区对 AI 原型工具的真实态度分化。设计师分享使用 Figma Make 等 AI 原型工具的混合体验，揭示了传统设计工作流与 AI 驱动工作流之间的张力。这场讨论本身就是一个风向标——行业正处于工作流范式的转折点。</p>
+            </div>
+            <a href="https://www.reddit.com/r/UXDesign/comments/1ncq0ka/prototyping_in_figma_is_dead_the_future_is_ai/" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
-
       </section>
     </div>
 
@@ -343,18 +443,20 @@
         <span class="keyword-tag">AI 3D Generation</span>
         <span class="keyword-tag">Liquid Glass Design</span>
       </div>
-    </section>
-
-    <!-- ======== 往期回顾 ======== -->
-    <section class="past-issues">
-      <div class="past-issues-label">往期回顾</div>
-      <div id="past-issues-list">
-        <p style="text-align:center; color:var(--text-tertiary); padding:var(--s4);">加载中...</p>
+      <div class="trend-related">
+        <div class="trend-related-label">关联趋势</div>
+        <ul class="trend-related-list">
+          <li>折叠屏与空间计算驱动的多屏交互设计范式</li>
+          <li>AI Agent 界面双读者问题：为人与为 Agent 同时设计</li>
+          <li>设计师角色从执行者向策展人/策略师的结构性转型</li>
+        </ul>
       </div>
     </section>
 
     <nav class="issue-nav">
-      <a href="./archive.html" class="nav-center">查看全部 <span class="arrow-right">&rarr;</span></a>
+      <a href="./2026-06.html" class="nav-prev">&larr; 上一期</a>
+      <a href="../archive.html" class="nav-center">查看全部 <span class="arrow-right">&rarr;</span></a>
+      <span class="nav-next-placeholder"></span>
     </nav>
   </main>
 
@@ -365,28 +467,5 @@
     </div>
   </footer>
   </div>
-
-  <script>
-    fetch('./index.json')
-      .then(function(r) { return r.json(); })
-      .then(function(data) {
-        var list = document.getElementById('past-issues-list');
-        if (!data.issues || data.issues.length === 0) {
-          list.innerHTML = '<p style="text-align:center; color:var(--text-tertiary);">暂无往期</p>';
-          return;
-        }
-        list.innerHTML = data.issues.map(function(issue) {
-          return '<a href="' + issue.url + '" class="archive-item">' +
-            '<span class="archive-number">' + issue.period + '</span>' +
-            '<span class="archive-date">' + issue.date + '</span>' +
-            '<span class="archive-title">' + issue.title + '</span>' +
-          '</a>';
-        }).join('');
-      })
-      .catch(function() {
-        document.getElementById('past-issues-list').innerHTML =
-          '<p style="text-align:center; color:var(--accent);">加载失败</p>';
-      });
-  </script>
 </body>
 </html>

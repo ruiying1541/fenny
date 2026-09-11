@@ -1,0 +1,487 @@
+{
+  "week": "2026-W37",
+  "collected_at": "2026-09-11T06:07:13Z",
+  "total_items": 42,
+  "sources": [
+    {
+      "source_name": "Hacker News",
+      "source_type": "discussion",
+      "items": [
+        {
+          "title": "Shopify is moving from React Native back to Swift and Kotlin",
+          "url": "https://shopify.engineering/back-to-native",
+          "description": "Shopify announces migration of their Shop app from React Native back to native Swift and Kotlin development. The engineering team cites platform-specific UX fidelity, performance, and native design adherence as key reasons. This has major implications for cross-platform design teams debating whether to invest in platform-native vs cross-platform UI approaches.",
+          "heat": 946,
+          "heat_type": "upvotes",
+          "tags": ["mobile-design", "react-native", "native-ux", "cross-platform", "engineering"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "discussion"
+        },
+        {
+          "title": "iPhone Duo",
+          "url": "https://www.apple.com/iphone-duo/",
+          "description": "Apple launches the iPhone Duo, a foldable device that introduces entirely new UI/UX paradigms. The partially folded form factor shows a Home Screen that spans both displays, requiring designers to rethink navigation patterns, content layouts, and interaction models for dual-screen mobile experiences. Apple is hosting Group Labs for developers and designers to discuss app design for the new form factor.",
+          "heat": 1429,
+          "heat_type": "upvotes",
+          "tags": ["apple", "foldable", "mobile-design", "ui-paradigm", "hardware"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "discussion"
+        },
+        {
+          "title": "Show HN: I left Figma to build a diffusion-based UI design tool (Diffui)",
+          "url": "https://news.ycombinator.com/item?id=48995754",
+          "description": "A former Figma designer built Diffui.ai, a UI design tool powered by diffusion models. The tool aims to let users design full web apps using AI diffusion as the design engine, generating designs that become products and reusable brands. The creator recently switched image generation to gpt-image-2 as the underlying diffusion model.",
+          "heat": 80,
+          "heat_type": "upvotes",
+          "tags": ["ai-design", "diffusion-model", "ui-generator", "figma-alternative"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "discussion"
+        },
+        {
+          "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+          "url": "https://cognition.com/blog/swe-2",
+          "description": "Cognition releases SWE-2, a new AI coding model that rivals competing models in software engineering tasks. This has implications for design-to-code workflows as AI coding agents become increasingly capable of generating and modifying UI code, potentially transforming how designers and developers collaborate.",
+          "heat": 394,
+          "heat_type": "upvotes",
+          "tags": ["ai-coding", "design-to-code", "llm", "developer-tools"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "discussion"
+        },
+        {
+          "title": "Don't let anyone take away your big box of cables",
+          "url": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/",
+          "description": "A widely-discussed essay on technology culture and design philosophy, arguing against the trend of over-simplification in tech product design. The piece resonated with HN readers on the topic of how product design decisions affect real-world usability and the tension between minimalism and practicality.",
+          "heat": 431,
+          "heat_type": "upvotes",
+          "tags": ["design-philosophy", "product-design", "minimalism", "usability"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "discussion"
+        },
+        {
+          "title": "OpenAI Agents API",
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+          "description": "OpenAI releases the Agents API, enabling developers to build autonomous AI agents that can perform multi-step tasks including UI interactions. This has significant implications for agentic UI design, as interfaces increasingly need to be designed for both human and AI agent interactions.",
+          "heat": 209,
+          "heat_type": "upvotes",
+          "tags": ["ai-agents", "api", "agentic-ui", "developer-tools"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "discussion"
+        }
+      ]
+    },
+    {
+      "source_name": "Product Hunt",
+      "source_type": "product_launch",
+      "items": [
+        {
+          "title": "Kombai Gallery - 20,000+ curated UI designs for agents and humans",
+          "url": "https://kombai.com/",
+          "description": "Kombai launches a design gallery featuring 20,000+ free standout UI designs that can be referenced by human designers or AI agents. Ranked #3 of the day on September 8, 2026 with 343 upvotes. The gallery is designed to serve as an inspiration library for both human design workflows and AI-assisted design generation, bridging the gap between curated design references and agentic UI building.",
+          "heat": 343,
+          "heat_type": "upvotes",
+          "tags": ["ui-designs", "design-gallery", "ai-agents", "inspiration", "design-tools"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "product_launch"
+        },
+        {
+          "title": "Rechroma - Build better color palettes. Ship complete color systems.",
+          "url": "https://www.producthunt.com/products/rechroma",
+          "description": "Rechroma is a new design tool that helps teams build accessible color palettes and complete color systems. It addresses the common challenge of creating color schemes that meet WCAG accessibility standards while maintaining visual appeal. Listed as a new launch in Product Hunt's graphic design tools category.",
+          "heat": 0,
+          "heat_type": "upvotes",
+          "tags": ["accessibility", "color-system", "design-tools", "wcag"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "product_launch"
+        },
+        {
+          "title": "Magic Patterns - AI design tool for software product teams",
+          "url": "https://www.producthunt.com/products/magicpatterns",
+          "description": "Magic Patterns is an AI design tool built for software product teams including product managers, designers, and founders. It enables rapid prototyping and creation of product interfaces. Reviews note that its UI output feels closest to shippable among AI design tools, with requests for deeper codebase integration.",
+          "heat": 0,
+          "heat_type": "upvotes",
+          "tags": ["ai-design", "prototyping", "product-design", "design-tools"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "product_launch"
+        },
+        {
+          "title": "Magic UI - 150+ free animated React components for design engineers",
+          "url": "https://www.producthunt.com/products/magic-ui",
+          "description": "Magic UI is an open-source UI library for design engineers featuring 150+ free animated components and effects built with React, Tailwind CSS, and TypeScript. It aims to help developers create stunning landing pages quickly. Listed as a newcomer in Product Hunt's design resources category alongside HeroUI, Freepik, and Mobbin.",
+          "heat": 0,
+          "heat_type": "upvotes",
+          "tags": ["component-library", "react", "animation", "open-source", "tailwind"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "product_launch"
+        },
+        {
+          "title": "Framer AI Agents - Design and publish professional sites with AI",
+          "url": "https://www.producthunt.com/leaderboard/weekly/2026/37",
+          "description": "Framer launches AI Agents capability, enabling users to design and publish professional websites using AI assistance. Featured on Product Hunt's weekly leaderboard for the week of September 7, 2026, alongside Kombai Gallery and other top products.",
+          "heat": 0,
+          "heat_type": "upvotes",
+          "tags": ["ai-design", "web-design", "framer", "no-code", "website-builder"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "product_launch"
+        },
+        {
+          "title": "HeroUI - Modern React UI component library",
+          "url": "https://www.producthunt.com/categories/design-resources",
+          "description": "HeroUI is highlighted as a top design resource on Product Hunt, offering modern React UI components that fast-track UI builds. Listed alongside Mobbin for UX patterns and Freepik for AI assets. The tool is part of a growing ecosystem of design resource platforms accelerating UI development workflows.",
+          "heat": 0,
+          "heat_type": "upvotes",
+          "tags": ["component-library", "react", "ui-components", "design-resources"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "product_launch"
+        }
+      ]
+    },
+    {
+      "source_name": "Sidebar.io",
+      "source_type": "design_work",
+      "items": [
+        {
+          "title": "DialKit - Tune interfaces in real time and make the details feel right",
+          "url": "https://dialkit.dev",
+          "description": "DialKit is a design tool that puts live controls beside the interface being built, enabling real-time tuning of UI details. Featured on Sidebar.io on September 10, 2026. The tool aims to make the process of fine-tuning interface details more intuitive and immediate for designers.",
+          "heat": 0,
+          "heat_type": "awards",
+          "tags": ["ui-tuning", "real-time", "interface-design", "design-tools"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "design_work"
+        },
+        {
+          "title": "Opensource UI - 200+ production-ready React and Next.js components",
+          "url": "https://opensourceui.in",
+          "description": "Opensource UI is a free, MIT-licensed copy-paste library of 200+ production-ready React and Next.js components. Built with TypeScript and Tailwind CSS v4. Featured on Sidebar.io on September 9, 2026. The library provides a comprehensive resource for developers building modern web interfaces.",
+          "heat": 0,
+          "heat_type": "awards",
+          "tags": ["component-library", "react", "nextjs", "tailwind", "open-source"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "design_work"
+        },
+        {
+          "title": "Lucet - AI interface patterns for what comes next",
+          "url": "https://lucet.design",
+          "description": "Lucet focuses on AI interface patterns, designing missing states and making missing features work. It addresses the growing need for AI-specific UI patterns as AI-native interfaces become more prevalent. Featured on Sidebar.io on September 8, 2026.",
+          "heat": 0,
+          "heat_type": "awards",
+          "tags": ["ai-interface", "design-patterns", "ui-states", "ai-design"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "design_work"
+        },
+        {
+          "title": "Looogos - A curated collection of logos discovered in the wild",
+          "url": "https://looogos.com",
+          "description": "Looogos is a curated collection of logos discovered in the wild, serving as a design inspiration resource for brand designers. Featured on Sidebar.io on September 7, 2026. The collection showcases real-world logo applications across various contexts.",
+          "heat": 0,
+          "heat_type": "awards",
+          "tags": ["logo-design", "branding", "inspiration", "design-collection"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "design_work"
+        },
+        {
+          "title": "JudgmentKit - Stop AI from building the wrong interface",
+          "url": "https://judgmentkit.ai",
+          "description": "JudgmentKit helps AI agents understand user work, choose the right interface, and repair mismatches. It addresses the critical problem of AI-generated interfaces not matching user intent or context. Featured on Sidebar.io on September 4, 2026.",
+          "heat": 0,
+          "heat_type": "awards",
+          "tags": ["ai-agents", "interface-selection", "ai-design", "ux-repair"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "design_work"
+        },
+        {
+          "title": "Mesurer - Inspect, annotate, and give feedback on any live interface",
+          "url": "https://mesurer.dev",
+          "description": "Mesurer is a tool for inspecting, annotating, and giving feedback on any live interface. It enables sharing feedback with AI agents and team members, bridging the gap between human and AI-driven design review workflows. Featured on Sidebar.io on September 3, 2026.",
+          "heat": 0,
+          "heat_type": "awards",
+          "tags": ["design-feedback", "annotation", "design-review", "ai-agents"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "design_work"
+        }
+      ]
+    },
+    {
+      "source_name": "Awwwards",
+      "source_type": "website",
+      "items": [
+        {
+          "title": "AI in Design Report 2026 - State of AI Design",
+          "url": "https://stateofaidesign.com",
+          "description": "An award-winning website (Awwwards Site of the Day) presenting the State of AI Design Report 2026. The site itself is a showcase of innovative web design, while the report reveals that AI has moved from isolated use to spanning the entire design project lifecycle, with 50% of surveyed designers reporting they have shipped code to production.",
+          "heat": 0,
+          "heat_type": "awards",
+          "tags": ["ai-design", "design-report", "web-design", "award-winning"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "website"
+        },
+        {
+          "title": "Squarespace Foundations - Brand design system showcase",
+          "url": "https://brand.squarespace.com",
+          "description": "Squarespace's brand foundation site, recognized as an Awwwards Site of the Day. The site demonstrates how a major platform brand can present its design system and brand guidelines in an engaging, interactive web experience.",
+          "heat": 0,
+          "heat_type": "awards",
+          "tags": ["brand-design", "design-system", "web-design", "squarespace"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "website"
+        },
+        {
+          "title": "White Desert - Immersive luxury expedition web experience",
+          "url": "https://white-desert.com",
+          "description": "An award-winning Awwwards Site of the Day featuring an immersive web experience for White Desert, a luxury expedition company. The site showcases cutting-edge web design techniques including scroll-driven animations, immersive imagery, and sophisticated interaction design.",
+          "heat": 0,
+          "heat_type": "awards",
+          "tags": ["web-design", "immersive", "luxury", "award-winning", "animation"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "website"
+        },
+        {
+          "title": "Trevor Noah - Celebrity personal brand website",
+          "url": "https://trevornoah.com",
+          "description": "Trevor Noah's personal website, recognized as an Awwwards Site of the Day. The site represents a high-profile example of celebrity personal branding through innovative web design, blending personality with sophisticated digital interaction.",
+          "heat": 0,
+          "heat_type": "awards",
+          "tags": ["personal-brand", "celebrity", "web-design", "award-winning"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "website"
+        },
+        {
+          "title": "Paul Kalkbrenner - Music artist immersive web experience",
+          "url": "https://paulkalkbrenner.net",
+          "description": "An Awwwards Site of the Day for electronic music artist Paul Kalkbrenner. The site demonstrates how music artists can create immersive digital experiences that reflect their brand through innovative visual design and interaction patterns.",
+          "heat": 0,
+          "heat_type": "awards",
+          "tags": ["music", "artist-website", "immersive", "web-design", "award-winning"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "website"
+        }
+      ]
+    },
+    {
+      "source_name": "Figma",
+      "source_type": "article",
+      "items": [
+        {
+          "title": "Config 2026: Code Layers on the Canvas",
+          "url": "https://www.figma.com/blog/config-2026-recap/",
+          "description": "Figma announces Code Layers at Config 2026, treating code as a design material alongside images, vectors, and layers. Users can convert any design layer into an interactive code layer with a single click or prompt, duplicate layers to explore variations, and switch between editable design and code. This represents a major shift in the design-to-code paradigm.",
+          "heat": 0,
+          "heat_type": "views",
+          "tags": ["figma", "code-layers", "design-to-code", "config-2026", "ai-design"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "article"
+        },
+        {
+          "title": "Config 2026: Figma Motion - Built-in motion design tool",
+          "url": "https://www.figma.com/blog/config-2026-recap/",
+          "description": "Figma introduces Figma Motion, a built-in motion design tool with a timeline interface featuring keyframes and presets. Motion can be built from scratch, layered onto existing designs, or generated via the Figma agent. Motion integrates into design systems, exports as CSS/JSON/React/MP4, and is MCP-compatible for passing animations to coding agents.",
+          "heat": 0,
+          "heat_type": "views",
+          "tags": ["figma", "motion-design", "animation", "config-2026", "design-system"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "article"
+        },
+        {
+          "title": "Config 2026: Generative Plugins - Build custom AI tools on canvas",
+          "url": "https://www.figma.com/blog/config-2026-recap/",
+          "description": "Figma launches Generative Plugins, allowing users to build custom tools by describing behavior, controls, and parameters without needing a local dev environment or plugin API knowledge. Plugins feel native to the canvas and can be shared with collaborators, with future support for publishing to teams, organizations, and the broader community.",
+          "heat": 0,
+          "heat_type": "views",
+          "tags": ["figma", "generative-plugins", "ai-tools", "config-2026", "extensibility"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "article"
+        },
+        {
+          "title": "Config 2026: Figma Weave Tools on the Canvas",
+          "url": "https://www.figma.com/blog/config-2026-recap/",
+          "description": "Figma Weave tools are now accessible directly in the Figma canvas. Weave is a node-based canvas for building generative visual workflows by connecting models, transforming assets, and comparing outputs. Users can build workflows, publish them as templates for others to remix, and soon publish them as shareable tools.",
+          "heat": 0,
+          "heat_type": "views",
+          "tags": ["figma", "weave", "generative-workflow", "node-based", "config-2026"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "article"
+        },
+        {
+          "title": "Figma September Update: Control Opacity at Scale",
+          "url": "https://www.figma.com/release-notes/",
+          "description": "Figma's September 3, 2026 release introduces at-scale opacity management within the variables modal. Key features include aliasing opacity while keeping colors linked to a library, using number variables to set opacity on color variables, and bulk-updating opacity for states like overlays and scrims. This significantly improves design system token management.",
+          "heat": 0,
+          "heat_type": "views",
+          "tags": ["figma", "variables", "opacity", "design-system", "release-notes"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "article"
+        },
+        {
+          "title": "Figma September Update: Generative Plugins and Shaders Upgrades",
+          "url": "https://www.figma.com/release-notes/",
+          "description": "Figma's September 1, 2026 update adds animated and interactive shaders with motion and mouse reactivity, community publishing for generative plugins and shaders, organization-level private sharing, a code viewer for downloading shader/plugin code, and MCP updates enabling third-party agents to modify plugins via Figma's MCP server with correct React code rendering.",
+          "heat": 0,
+          "heat_type": "views",
+          "tags": ["figma", "shaders", "generative-plugins", "mcp", "ai-design"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "article"
+        }
+      ]
+    },
+    {
+      "source_name": "Reddit",
+      "source_type": "discussion",
+      "items": [
+        {
+          "title": "Prototyping in Figma is dead. The future is AI prototyping.",
+          "url": "https://www.reddit.com/r/UXDesign/comments/1ncq0ka/prototyping_in_figma_is_dead_the_future_is_ai/",
+          "description": "A heated Reddit discussion on r/UXDesign debating whether traditional Figma prototyping is being replaced by AI prototyping tools. The post generated 265 upvotes and 198 comments, with designers sharing mixed experiences using Figma Make and other AI prototyping tools, revealing the tension between traditional and AI-driven design workflows.",
+          "heat": 265,
+          "heat_type": "upvotes",
+          "tags": ["ai-prototyping", "figma", "ux-design", "debate", "ai-design"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "discussion"
+        },
+        {
+          "title": "Is Figma still worth it in 2026, or are AI tools like Claude Design, Google Stitch, Lovable, Banani better?",
+          "url": "https://www.reddit.com/r/UI_Design/comments/1undb9r/is_figma_still_worth_it_in_2026_or_are_ai_tools/",
+          "description": "A r/UI_Design discussion questioning whether Figma remains the best design tool in 2026 given the rise of AI-native design tools like Claude Design, Google Stitch, Lovable, and Banani. The thread reflects the industry-wide uncertainty about whether traditional design tools can compete with AI-first alternatives.",
+          "heat": 0,
+          "heat_type": "upvotes",
+          "tags": ["figma", "ai-design-tools", "claude-design", "google-stitch", "lovable"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "discussion"
+        },
+        {
+          "title": "Is it just me, or is the Design-to-Code handoff still incredibly broken in 2026?",
+          "url": "https://www.reddit.com/r/FigmaDesign/comments/1qbsyva/is_it_just_me_or_is_the_designtocode_handoff/",
+          "description": "A r/FigmaDesign thread from January 2026 discussing persistent challenges in the design-to-code handoff process. The discussion reveals that despite advances in AI tools and Figma's Code Layers announcement, many designers still find the translation from design to production code to be a major pain point.",
+          "heat": 0,
+          "heat_type": "upvotes",
+          "tags": ["design-to-code", "figma", "handoff", "developer-relations"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "discussion"
+        },
+        {
+          "title": "What are your go-to websites for web design inspiration?",
+          "url": "https://www.reddit.com/r/web_design/comments/1tlcirh/what_are_your_goto_websites_for_web_design/",
+          "description": "A popular r/web_design thread with 132 upvotes and 54 comments where designers share their favorite sources for web design inspiration in 2026. The discussion provides a crowdsourced list of design inspiration resources that designers actually use in their daily workflows.",
+          "heat": 132,
+          "heat_type": "upvotes",
+          "tags": ["web-design", "inspiration", "resources", "community"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "discussion"
+        },
+        {
+          "title": "AI tools for Android UI design - what's worth using in 2026",
+          "url": "https://www.reddit.com/r/androiddev/comments/1ut6fz6/ai_tools_for_android_ui_design_whats_worth_using/",
+          "description": "A r/androiddev discussion from July 2026 about which AI tools are actually useful for Android UI design. Notably mentions that Galileo AI no longer exists as a standalone product after being acquired by Google and folded into Stitch, highlighting the rapid consolidation in the AI design tool market.",
+          "heat": 0,
+          "heat_type": "upvotes",
+          "tags": ["android", "ai-design", "google-stitch", "galileo-ai", "mobile-design"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "discussion"
+        },
+        {
+          "title": "I can't settle on a dark theme for my app - community feedback request",
+          "url": "https://www.reddit.com/r/UI_Design/comments/1wcff77/i_cant_settle_on_a_dark_theme_for_my_app_which/",
+          "description": "A recent r/UI_Design post from September 10, 2026 requesting community feedback on dark theme options for a mobile finance app. The post showcases the ongoing design challenge of creating effective dark mode interfaces, a topic that remains highly relevant as more apps adopt dual-theme support.",
+          "heat": 0,
+          "heat_type": "upvotes",
+          "tags": ["dark-mode", "mobile-design", "ui-design", "community-feedback"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "discussion"
+        }
+      ]
+    },
+    {
+      "source_name": "Medium / Design Publications",
+      "source_type": "article",
+      "items": [
+        {
+          "title": "6 Best AI UI Design Tools I Tested With the Same Prompt (2026 Review)",
+          "url": "https://medium.muz.li/6-best-ai-ui-design-tools-i-tested-with-the-same-prompt-2026-review-b68309af284a",
+          "description": "An in-depth comparison of six leading AI UI design tools - Flowstep, Google Stitch, Figma Make, v0, Lovable, and Bolt.new - using the same CRM dashboard design challenge. Published June 15, 2026, the review provides a practical benchmark for designers evaluating which AI design tool produces the best results for real-world UI tasks.",
+          "heat": 0,
+          "heat_type": "views",
+          "tags": ["ai-design", "comparison", "flowstep", "google-stitch", "v0", "lovable", "bolt.new"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "article"
+        },
+        {
+          "title": "AI is NOT Killing Design - It's The Opposite",
+          "url": "https://medium.com/design-bootcamp/reports-reveal-the-surprising-reality-of-design-in-2026-abcfd8b5c459",
+          "description": "An analysis of Figma's AI in Design Report 2026 arguing that AI is enhancing rather than replacing design work. The article highlights a shift in designer roles towards more creative and strategic work, with AI handling routine tasks. Published August 10, 2026, it counters the narrative that AI is eliminating design jobs.",
+          "heat": 0,
+          "heat_type": "views",
+          "tags": ["ai-design", "figma-report", "design-career", "ai-adoption"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "article"
+        },
+        {
+          "title": "10 Best AI Tools for UX Designers in 2026",
+          "url": "https://medium.muz.li/10-best-ai-tools-for-ux-designers-in-2026-63b1b4fab19f",
+          "description": "A curated list of the 10 best AI tools for UX designers in 2026, published on Medium/Muzli. The article covers tools across the design workflow including ideation, prototyping, UI generation, and research, providing designers with a practical toolkit for integrating AI into their UX workflows.",
+          "heat": 0,
+          "heat_type": "views",
+          "tags": ["ai-tools", "ux-design", "workflow", "ai-adoption"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "article"
+        },
+        {
+          "title": "I Was Wrong About AI. Here's What Changed My Mind.",
+          "url": "https://medium.com/design-bootcamp/i-was-wrong-about-ai-heres-what-changed-my-mind-892cf461338f",
+          "description": "A personal reflection from a designer who initially resisted AI tools but changed their perspective after using Claude Code for design research. The author describes how AI broke down a complex research task into 12 channels, demonstrating AI's potential as a thought partner in design research workflows.",
+          "heat": 0,
+          "heat_type": "views",
+          "tags": ["ai-design", "claude-code", "design-research", "ai-adoption"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "article"
+        }
+      ]
+    },
+    {
+      "source_name": "AI in Design Report 2026",
+      "source_type": "article",
+      "items": [
+        {
+          "title": "AI in Design Report 2026: Tools Chapter - AI spans the entire project lifecycle",
+          "url": "https://stateofaidesign.com/chapters/tools",
+          "description": "The Tools chapter of the AI in Design Report 2026 reveals that AI has moved from isolated use in exploration phases to spanning the entire design project lifecycle. Key findings include: 50% of surveyed designers have shipped code to production, the biggest year-over-year growth areas are code generation, documentation, design QA, and developer handoff, and every workflow shows meaningful AI adoption. Leading use cases are ideation, prototyping, and UI copy.",
+          "heat": 0,
+          "heat_type": "views",
+          "tags": ["ai-design", "report", "ai-adoption", "design-workflow", "code-generation"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "article"
+        }
+      ]
+    },
+    {
+      "source_name": "Design Events",
+      "source_type": "article",
+      "items": [
+        {
+          "title": "London Design Festival 2026 - 24th edition, September 12-20",
+          "url": "https://londondesignfestival.com/",
+          "description": "London Design Festival returns for its 24th edition from September 12-20, 2026, celebrating London as the design capital of the world. The festival includes digital design, graphic design, industrial and product design exhibitions and events across the city. This overlaps with the current collection week and represents one of the world's largest design events.",
+          "heat": 0,
+          "heat_type": "views",
+          "tags": ["design-festival", "london", "digital-design", "event", "september-2026"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "article"
+        }
+      ]
+    },
+    {
+      "source_name": "Apple Developer",
+      "source_type": "product_launch",
+      "items": [
+        {
+          "title": "Get ready for iPhone Duo - Apple Developer Group Labs for designers",
+          "url": "https://developer.apple.com/news/",
+          "description": "Apple announces iPhone Duo Group Labs on September 9, 2026, inviting developers and designers to join Apple engineers and designers online to discuss creating and updating apps for the new foldable form factor. This represents a significant moment for mobile UI/UX designers who need to adapt their interfaces to dual-screen mobile experiences.",
+          "heat": 1429,
+          "heat_type": "upvotes",
+          "tags": ["apple", "iphone-duo", "foldable", "mobile-design", "developer-resources"],
+          "collected_at": "2026-09-11T06:07:13Z",
+          "source_type": "product_launch"
+        }
+      ]
+    }
+  ]
+}
