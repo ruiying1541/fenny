@@ -1,0 +1,141 @@
+{
+  "week": "2026-W38",
+  "collected_at": "2026-09-18T14:00:00Z",
+  "items": [
+    {
+      "title": "飞书8.0发布：Agent进入协同办公，重新设计了一遍协同办公",
+      "source": "钛媒体",
+      "category": "AI协作",
+      "score": 90,
+      "one_liner": "Feishu 8.0 pivots from human-to-human collaboration to human-Agent collaboration, with Agents entering chats, docs, and workflows",
+      "why_it_matters": "飞书从\"人和人的协同办公平台\"转向\"人和Agent一起工作的平台\"，意味着协同办公产品的设计对象从人扩展到Agent。豆包工作伙伴拥有独立身份、权限和记忆，可进入群聊、参会并主动发现任务。这对企业级产品设计范式有深远影响——界面需要同时服务于人类和AI Agent，权限体系和上下文设计成为关键。",
+      "url": "https://www.tmtpost.com/8141020.html"
+    },
+    {
+      "title": "Anthropic Claude全面改版：Cowork并入Chat+Docs/Slides上线",
+      "source": "优设UISDC/七牛云",
+      "category": "AI设计工具",
+      "score": 88,
+      "one_liner": "Anthropic merges Cowork into Chat, adds Docs and Slides, creating a unified AI workspace for conversation, execution, and presentation",
+      "why_it_matters": "Claude将独立Cowork的Agent执行能力并入Chat对话入口，用户无需再区分产品形态。新增Docs与Slides使写作与演示在Claude内闭环完成，直接对标Google Docs+Gemini办公生态。这标志着AI办公工具从分散功能向统一工作空间演进，对设计师快速生成提案和汇报材料有直接价值。",
+      "url": "https://news.qiniu.com/archives/1789610481479"
+    },
+    {
+      "title": "腾讯ChatterFly低调内测：AI原生语音助手，开口就能成稿",
+      "source": "快科技/优设UISDC",
+      "category": "AI设计工具",
+      "score": 85,
+      "one_liner": "Tencent's ChatterFly combines voice input with AI intent understanding, turning spoken language into structured documents across multiple scenarios",
+      "why_it_matters": "ChatterFly区别于传统输入法的简单语音转文字，能结合上下文理解用户意图，实现口语到成稿的自动整理与润色。内置会议纪要、工作汇报、项目推进等六款场景Skill，支持跨应用调用。这代表了\"语音输入+AI写作\"融合的新产品形态，对输入交互设计有启发意义。",
+      "url": "https://news.mydrivers.com/1/1152/1152070.htm"
+    },
+    {
+      "title": "微软关掉Word里的文本预测：AI产品设计的场景匹配启示",
+      "source": "钛媒体",
+      "category": "UX研究",
+      "score": 83,
+      "one_liner": "Microsoft disables text prediction in Word by default, revealing that AI value depends on scene-matching not technology level",
+      "why_it_matters": "微软将Word和Outlook全平台文本预测从默认开启改为默认关闭，核心原因在于场景错配——文本预测适合快速纠错场景，但在正式文档写作中打断用户思考流。这给AI产品设计带来深层启示：用户对AI的接纳度取决于AI与当前交互场景的匹配度，\"精准介入胜过无处不在\"是AI功能设计的关键原则。",
+      "url": "https://www.tmtpost.com/agent/ai-article?id=20184"
+    },
+    {
+      "title": "OpenPencil：开源AI原生设计编辑器，设计文件即节点树",
+      "source": "优设UISDC",
+      "category": "AI设计工具",
+      "score": 82,
+      "one_liner": "OpenPencil treats design files as readable, queryable, modifiable node trees, supporting Figma import with CLI, MCP Server and Vue SDK",
+      "why_it_matters": "OpenPencil将设计文件视为\"可读、可查询、可修改的节点树\"，打破设计文件只能在特定软件中打开的传统。提供桌面端、网页端、CLI、MCP Server和Vue SDK，设计师、脚本和AI Agent可通过同一套操作创建和调整界面。MIT协议开源，代表设计资产与代码工作流边界消融的新趋势。",
+      "url": "https://www.uisdc.com/design-assets-weekly"
+    },
+    {
+      "title": "Modeinspect：AI-native UI设计工具，设计→PR直通模式",
+      "source": "优设UISDC",
+      "category": "AI设计工具",
+      "score": 80,
+      "one_liner": "Modeinspect lets designers adjust UI like traditional tools or explore with AI, with changes becoming engineer-reviewable PRs",
+      "why_it_matters": "Modeinspect打通了设计到开发的链路——设计师调整界面的结果可直接变成\"工程师可以Review的PR\"。这种设计→PR直通模式代表了AI原生设计工具的新范式：不再是设计稿交付，而是代码级交付。对设计协作工作流和设计交付标准有深远影响。",
+      "url": "https://www.uisdc.com/foldable-iphone-weekly"
+    },
+    {
+      "title": "Lovable Drafts：Vibe Coding的\"设计分支\"概念",
+      "source": "优设UISDC",
+      "category": "设计转代码",
+      "score": 79,
+      "one_liner": "Lovable Drafts introduces branching for Vibe Coding, each draft with independent chat and preview for parallel design exploration",
+      "why_it_matters": "Lovable Drafts让项目修改前可创建独立Draft，每个Draft拥有独立Chat和Preview，支持多人同时探索不同布局、视觉或文案，最后选择性合并到正式项目。这相当于将Git分支概念引入Vibe Coding，解决了AI设计工具中多人并行探索和方案对比的痛点。",
+      "url": "https://www.uisdc.com/foldable-iphone-weekly"
+    },
+    {
+      "title": "小米MiMo直播大模型强化学习训练过程：每小时烧钱超20万",
+      "source": "量子位/新浪科技",
+      "category": "AI基础设施",
+      "score": 78,
+      "one_liner": "Xiaomi's MiMo team livestreams RL training of MiMo-V2.6, openly showing the costs and process of large model training",
+      "why_it_matters": "小米MiMo团队负责人罗福莉沉寂半年后官宣强化学习研究，并在官网上线实时看板直播MiMo-V2.6模型的RL训练过程。这种\"透明炼丹\"的方式在AI行业极为罕见，展示了小米在AI模型领域的野心和开放态度。对设计行业而言，更强的国产AI模型意味着AI设计工具的底层能力将持续提升。",
+      "url": "https://www.qbitai.com/2026/09/490950.html"
+    },
+    {
+      "title": "Adobe Premiere集成生成式AI：时间线内直接生成视频、音效和音乐",
+      "source": "优设UISDC/Adobe",
+      "category": "AI设计工具",
+      "score": 77,
+      "one_liner": "Adobe embeds generative AI directly into Premiere's timeline, eliminating the need for external AI tools in video editing workflows",
+      "why_it_matters": "Premiere现在可以直接在时间线中生成视频、音效、环境声和音乐，创作者不再需要先去其他AI工具生成再下载导入。这代表了AI嵌入专业工作流的趋势——AI不再是外围工具，而是深度集成到创作流程中。对视频设计师和动效设计师的工作流有直接影响。",
+      "url": "https://www.uisdc.com/foldable-iphone-weekly"
+    },
+    {
+      "title": "Motion UI：支持MCP的动效组件库，语义化命名统一产品动效风格",
+      "source": "优设UISDC",
+      "category": "前端开发",
+      "score": 76,
+      "one_liner": "Motion team launches UI animation components with MCP installation, using semantic names to unify product motion design language",
+      "why_it_matters": "Motion UI通过语义化名称（snap、gentle、lively等）统一管理产品动效风格，带性能评级和reduced-motion处理。通过Motion+ MCP安装的方式让AI Agent可以直接安装和管理动效组件，代表了组件库正在为Agent而不只是为人类设计的趋势。",
+      "url": "https://www.uisdc.com/design-assets-weekly"
+    },
+    {
+      "title": "BoardUI：面向Agentic Interface的设计系统，50+组件+400+设计Token",
+      "source": "优设UISDC",
+      "category": "设计系统",
+      "score": 75,
+      "one_liner": "BoardUI is a React+Tailwind design system built for AI products, with Agent progress, Prompt Composer and data tables modules",
+      "why_it_matters": "BoardUI是首个专为AI产品准备的设计系统，包含50+组件、180+ building blocks、400+设计Token。提供Agent进度、Prompt Composer等AI产品特有模块，通过CLI安装。这填补了AI产品设计系统的空白，为构建Agentic Interface的团队提供了完整的组件基础。",
+      "url": "https://www.uisdc.com/design-assets-weekly"
+    },
+    {
+      "title": "Figma Make属性面板与标注功能：Annotate for agent圈选标注交AI执行",
+      "source": "优设UISDC",
+      "category": "AI设计工具",
+      "score": 74,
+      "one_liner": "Figma Make adds visual property panel for direct parameter editing and 'Annotate for agent' for describing interaction intent to AI",
+      "why_it_matters": "Figma Make新增可视化编辑方式，支持在属性面板中直接调整间距、字号、圆角等参数，修改先暂存在聊天框再应用到代码。\"Annotate for agent\"功能让设计师圈选标注描述交互意图交给AI执行，这是设计工具向AI协作模式演进的具体体现。",
+      "url": "https://www.uisdc.com/design-assets-weekly"
+    },
+    {
+      "title": "豆包工作正式发布：从\"写材料\"到\"管流程\"，企业级AI Agent进入体系竞争期",
+      "source": "科创板日报",
+      "category": "AI协作",
+      "score": 73,
+      "one_liner": "ByteDance's Doubao Work evolves from writing materials to managing workflows, signaling enterprise AI Agent competition entering system-level",
+      "why_it_matters": "豆包工作在2026飞书未来无限大会上正式发布，标志着字节跳动将豆包、飞书和火山引擎三大业务整合为企业AI体系。豆包工作从\"写材料\"升级到\"管流程\"，意味着AI Agent不再是单点工具，而是进入体系竞争阶段。对企业级AI产品设计和组织协作模式有深远影响。",
+      "url": "https://m.chinastarmarket.cn/detail/2474898"
+    },
+    {
+      "title": "UISFX：开源产品界面声音效果库，936种声音覆盖78个UI状态",
+      "source": "优设UISDC",
+      "category": "UX研究",
+      "score": 71,
+      "one_liner": "UISFX is an open-source sound library with 78 semantic UI states × 12 sound feels = 936 sounds, with coding agent prompts for selection",
+      "why_it_matters": "UISFX填补了产品界面声音设计的空白——78个语义化UI状态×12种声音感觉=936种声音组合。提供coding agent提示词让AI Agent根据产品气质选择sound feel。这代表了多感官设计的趋势——产品体验正在从纯视觉扩展到声音维度，代码MIT，音频CC0。",
+      "url": "https://www.uisdc.com/design-assets-weekly"
+    },
+    {
+      "title": "Raycast 2.2 Bring Your Own Model：支持连接本地Ollama和OpenRouter",
+      "source": "优设UISDC",
+      "category": "AI基础设施",
+      "score": 70,
+      "one_liner": "Raycast 2.2 supports connecting OpenAI-compatible APIs, local Ollama models and OpenRouter, bringing custom models to AI assistant",
+      "why_it_matters": "Raycast 2.2支持连接OpenAI-compatible API、自建Ollama本地模型及OpenRouter，将这些模型直接用于Raycast AI功能。这代表了AI工具走向开放模型接入的趋势——用户不再被绑定在单一模型提供商，对设计师选择AI工具有更多灵活性。",
+      "url": "https://www.uisdc.com/foldable-iphone-weekly"
+    }
+  ]
+}

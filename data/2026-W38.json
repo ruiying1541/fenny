@@ -1,0 +1,218 @@
+{
+  "week": "2026-W38",
+  "issue_number": 3,
+  "published_at": "2026-09-18T14:00:00Z",
+  "domestic_top_10": [
+    {
+      "rank": 1,
+      "title": "飞书8.0发布：Agent进入协同办公，重新设计了一遍协同办公",
+      "source": "钛媒体",
+      "source_url": "https://www.tmtpost.com/8141020.html",
+      "heat_score": 90,
+      "one_liner": "Feishu 8.0 pivots from human-to-human to human-Agent collaboration, with AI partners entering chats, docs and workflows",
+      "why_matters": "飞书从「人和人的协同办公平台」转向「人和 Agent 一起工作的平台」，意味着协同办公产品的设计对象从人扩展到 Agent。豆包工作伙伴拥有独立身份、权限和记忆，可进入群聊、参会并主动发现任务。界面需要同时服务于人类和 AI Agent，权限体系和上下文设计成为企业级产品设计的新关键命题。",
+      "category": "AI协作"
+    },
+    {
+      "rank": 2,
+      "title": "Anthropic Claude全面改版：Cowork并入Chat+Docs/Slides上线",
+      "source": "优设UISDC/七牛云",
+      "source_url": "https://news.qiniu.com/archives/1789610481479",
+      "heat_score": 85,
+      "one_liner": "Anthropic merges Cowork into Chat and adds Docs/Slides, creating a unified AI workspace for conversation, execution and presentation",
+      "why_matters": "Claude 将独立 Cowork 的 Agent 执行能力并入 Chat 对话入口，用户无需再区分产品形态。新增 Docs 与 Slides 使写作与演示在 Claude 内闭环完成，直接对标 Google Docs+Gemini 办公生态。这标志着 AI 办公工具从分散功能向统一工作空间演进，对设计师快速生成提案和汇报材料有直接价值。",
+      "category": "AI设计工具"
+    },
+    {
+      "rank": 3,
+      "title": "腾讯ChatterFly低调内测：AI原生语音助手，开口就能成稿",
+      "source": "快科技/优设UISDC",
+      "source_url": "https://news.mydrivers.com/1/1152/1152070.htm",
+      "heat_score": 82,
+      "one_liner": "Tencent's ChatterFly combines voice input with AI intent understanding, turning spoken language into structured documents across scenarios",
+      "why_matters": "ChatterFly 区别于传统输入法的简单语音转文字，能结合上下文理解用户意图，实现口语到成稿的自动整理与润色。内置会议纪要、工作汇报、项目推进等六款场景 Skill，支持跨应用调用。这代表了「语音输入+AI 写作」融合的新产品形态，对输入交互设计有启发意义。",
+      "category": "AI设计工具"
+    },
+    {
+      "rank": 4,
+      "title": "微软关掉Word里的文本预测：AI产品设计的场景匹配启示",
+      "source": "钛媒体",
+      "source_url": "https://www.tmtpost.com/agent/ai-article?id=20184",
+      "heat_score": 82,
+      "one_liner": "Microsoft disables text prediction in Word by default, revealing that AI value depends on scene-matching not technology level",
+      "why_matters": "微软将 Word 和 Outlook 全平台文本预测从默认开启改为默认关闭，核心原因在于场景错配——文本预测适合快速纠错场景，但在正式文档写作中打断用户思考流。这给 AI 产品设计带来深层启示：用户对 AI 的接纳度取决于 AI 与当前交互场景的匹配度，「精准介入胜过无处不在」是 AI 功能设计的关键原则。",
+      "category": "UX研究"
+    },
+    {
+      "rank": 5,
+      "title": "OpenPencil：开源AI原生设计编辑器，设计文件即节点树",
+      "source": "优设UISDC",
+      "source_url": "https://www.uisdc.com/design-assets-weekly",
+      "heat_score": 81,
+      "one_liner": "OpenPencil treats design files as readable, queryable, modifiable node trees, supporting Figma import with CLI, MCP Server and Vue SDK",
+      "why_matters": "OpenPencil 将设计文件视为「可读、可查询、可修改的节点树」，打破设计文件只能在特定软件中打开的传统。提供桌面端、网页端、CLI、MCP Server 和 Vue SDK，设计师、脚本和 AI Agent 可通过同一套操作创建和调整界面。MIT 协议开源，代表设计资产与代码工作流边界消融的新趋势。",
+      "category": "AI设计工具"
+    },
+    {
+      "rank": 6,
+      "title": "Modeinspect：AI-native UI设计工具，设计→PR直通模式",
+      "source": "优设UISDC",
+      "source_url": "https://www.uisdc.com/foldable-iphone-weekly",
+      "heat_score": 80,
+      "one_liner": "Modeinspect lets designers adjust UI like traditional tools or explore with AI, with changes becoming engineer-reviewable PRs",
+      "why_matters": "Modeinspect 打通了设计到开发的链路——设计师调整界面的结果可直接变成「工程师可以 Review 的 PR」。这种设计→PR 直通模式代表了 AI 原生设计工具的新范式：不再是设计稿交付，而是代码级交付。对设计协作工作流和设计交付标准有深远影响。",
+      "category": "设计转代码"
+    },
+    {
+      "rank": 7,
+      "title": "BoardUI：面向Agentic Interface的设计系统，50+组件+400+设计Token",
+      "source": "优设UISDC",
+      "source_url": "https://www.uisdc.com/design-assets-weekly",
+      "heat_score": 77,
+      "one_liner": "BoardUI is a React+Tailwind design system built for AI products, with Agent progress, Prompt Composer and data tables modules",
+      "why_matters": "BoardUI 是首个专为 AI 产品准备的设计系统，包含 50+ 组件、180+ building blocks、400+ 设计 Token。提供 Agent 进度、Prompt Composer 等 AI 产品特有模块，通过 CLI 安装。这填补了 AI 产品设计系统的空白，为构建 Agentic Interface 的团队提供了完整的组件基础。",
+      "category": "设计系统"
+    },
+    {
+      "rank": 8,
+      "title": "Lovable Drafts：Vibe Coding的「设计分支」概念",
+      "source": "优设UISDC",
+      "source_url": "https://www.uisdc.com/foldable-iphone-weekly",
+      "heat_score": 77,
+      "one_liner": "Lovable Drafts introduces branching for Vibe Coding, each draft with independent chat and preview for parallel design exploration",
+      "why_matters": "Lovable Drafts 让项目修改前可创建独立 Draft，每个 Draft 拥有独立 Chat 和 Preview，支持多人同时探索不同布局、视觉或文案，最后选择性合并到正式项目。这相当于将 Git 分支概念引入 Vibe Coding，解决了 AI 设计工具中多人并行探索和方案对比的痛点。",
+      "category": "设计转代码"
+    },
+    {
+      "rank": 9,
+      "title": "豆包工作正式发布：从「写材料」到「管流程」，企业级AI Agent进入体系竞争期",
+      "source": "科创板日报",
+      "source_url": "https://m.chinastarmarket.cn/detail/2474898",
+      "heat_score": 76,
+      "one_liner": "ByteDance's Doubao Work evolves from writing materials to managing workflows, signaling enterprise AI Agent competition entering system-level",
+      "why_matters": "豆包工作在飞书未来无限大会上正式发布，标志着字节跳动将豆包、飞书和火山引擎三大业务整合为企业 AI 体系。从「写材料」升级到「管流程」，意味着 AI Agent 不再是单点工具，而是进入体系竞争阶段。对企业级 AI 产品设计和组织协作模式有深远影响。",
+      "category": "AI协作"
+    },
+    {
+      "rank": 10,
+      "title": "小米MiMo直播大模型强化学习训练过程：每小时烧钱超20万",
+      "source": "量子位/新浪科技",
+      "source_url": "https://www.qbitai.com/2026/09/490950.html",
+      "heat_score": 76,
+      "one_liner": "Xiaomi's MiMo team livestreams RL training of MiMo-V2.6, openly showing the costs and process of large model training",
+      "why_matters": "小米 MiMo 团队负责人罗福莉沉寂半年后官宣强化学习研究，并在官网上线实时看板直播 MiMo-V2.6 模型的 RL 训练过程。这种「透明炼丹」的方式在 AI 行业极为罕见，展示了小米在 AI 模型领域的野心和开放态度。更强的国产 AI 模型意味着 AI 设计工具的底层能力将持续提升。",
+      "category": "AI基础设施"
+    }
+  ],
+  "overseas_top_10": [
+    {
+      "rank": 1,
+      "title": "Voice AI UX Patterns: Designing for Conversational AI Agents",
+      "source": "UXDesign.cc",
+      "source_url": "https://uxdesign.cc/8-voice-aiux-patterns-81324c8feaa0",
+      "heat_score": 82,
+      "one_liner": "An in-depth exploration of 8 emerging Voice AI UX patterns, the perceived role of the AI agent within each, and key design decisions",
+      "why_matters": "语音 AI 正在成为下一代交互界面，但目前缺乏成熟的 UX 设计范式。这篇文章系统梳理了 8 种语音 AI 交互模式，对正在探索语音产品的设计团队具有直接参考价值。它揭示了语音交互中的角色认知差异如何影响设计决策，是 Voice AI 设计领域的先行者文档。",
+      "category": "UX研究"
+    },
+    {
+      "rank": 2,
+      "title": "Figma 2026 AI Report: Can AI Help Us Collaborate Better?",
+      "source": "Figma Blog",
+      "source_url": "https://www.figma.com/blog/2026-ai-report/",
+      "heat_score": 82,
+      "one_liner": "Figma publishes its annual AI report examining whether AI can meaningfully improve collaboration in software and design workflows",
+      "why_matters": "该报告基于大规模用户调研数据，探讨了 AI 在协作场景中的实际效果与局限性，为设计团队制定 AI 战略提供数据支撑。在 AI 炒作热潮中，这份报告提供了冷静的、基于证据的分析视角，对设计团队决策有重要参考价值。它回答了一个核心问题：AI 是否真的在改善协作，还是只是加速了个人执行。",
+      "category": "AI基础设施"
+    },
+    {
+      "rank": 3,
+      "title": "Building Contextual Menus: Linear's Approach to Invisible Details",
+      "source": "Linear",
+      "source_url": "https://linear.app/now/invisible-details",
+      "heat_score": 80,
+      "one_liner": "Linear's design team shares how they engineered a small but impactful improvement to contextual sub-menus, showcasing micro-interaction design",
+      "why_matters": "Linear 一直是产品设计品质的标杆，这篇文章展示了他们对上下文菜单这一「不可见的细节」的极致打磨。对于追求交互细节完美的产品团队来说，这是理解顶级 SaaS 产品如何做到体验一致性和效率的绝佳案例。文中关于子菜单展开逻辑的设计决策尤其有参考价值。",
+      "category": "移动设计"
+    },
+    {
+      "rank": 4,
+      "title": "The Most Important Product Decision Is What You Don't Build",
+      "source": "Hacker News",
+      "source_url": "https://liamnugent.me",
+      "heat_score": 79,
+      "one_liner": "An essay arguing that the discipline of deciding what NOT to build is more critical—and more undervalued—than shipping new features",
+      "why_matters": "这篇文章直击产品团队的核心痛点：庆祝发布却不庆祝砍掉功能。在功能蔓延普遍困扰产品团队的今天，作者提出「不做什么」才是最重要的产品决策，这对产品负责人制定优先级策略有深刻的思维启发。在 HN 获得 80 分和 25 条讨论，引发了广泛共鸣。",
+      "category": "产品策略"
+    },
+    {
+      "rank": 5,
+      "title": "Opusfived: An Interactive Comedy About Agentic AI Assistants",
+      "source": "Sidebar.io",
+      "source_url": "https://opusfived.dev/",
+      "heat_score": 78,
+      "one_liner": "An interactive comedy experience about agentic AI assistants, with a hilariously simple premise: 'Make one button blue. Change nothing else.'",
+      "why_matters": "这个作品以幽默的方式揭示了当前 AI Agent 在遵循简单指令时的失败模式——一个看似最简单的要求（把一个按钮变蓝）却引发一连串意外行为。它以产品设计视角提供了对 AI 可靠性和用户体验边界的深刻反思，对正在构建 AI 产品的团队具有警示意义。",
+      "category": "UX研究"
+    },
+    {
+      "rank": 6,
+      "title": "Mastra: Build AI Agents with a Modern TypeScript Stack",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/products/mastra",
+      "heat_score": 77,
+      "one_liner": "Mastra Factory ranked #1 Product of the Week on Product Hunt, offering a TypeScript-first framework for building production-grade AI agents",
+      "why_matters": "Mastra 作为 Product Hunt 本周冠军产品，代表了 AI Agent 开发工具的最新趋势——以 TypeScript 为核心的现代技术栈降低 AI Agent 构建门槛。其产品排名也反映了对开发者友好的 AI 基础设施工具的持续高需求，对设计团队构建 AI 驱动的产品功能有间接参考价值。",
+      "category": "AI基础设施"
+    },
+    {
+      "rank": 7,
+      "title": "Flet 1.0: Build Cross-Platform Apps in Python",
+      "source": "Hacker News",
+      "source_url": "https://flet.dev/",
+      "heat_score": 76,
+      "one_liner": "Flet 1.0 releases with the ability to build cross-platform desktop, mobile, and web apps using Python, with a Flutter-based rendering engine",
+      "why_matters": "Flet 1.0 的发布为 Python 开发者打开了跨平台应用开发的大门，降低了非前端背景开发者构建 GUI 应用的门槛。在 HN 获得 88 分和 41 条讨论，显示出社区对 Python 跨平台开发工具的强烈兴趣。对于设计团队中的非前端成员来说，这也是快速原型验证的新选项。",
+      "category": "前端开发"
+    },
+    {
+      "rank": 8,
+      "title": "Figma Config 2026: Code Layers, Motion, Shaders, Generative Plugins & Weave Tools",
+      "source": "Figma Blog",
+      "source_url": "https://www.figma.com/blog/config-2026-recap/",
+      "heat_score": 75,
+      "one_liner": "Figma's Config 2026 introduces code as a design material, built-in motion, AI-generated shaders, natural-language plugin creation, and Weave workflows",
+      "why_matters": "Config 2026 是 Figma 近年来最具突破性的更新，将代码、动效、着色器全部整合到设计画布上。Code Layers 让任意设计图层可一键转换为可交互代码，对设计转代码工作流有深远影响。本周新增的 Shader 生成和 Weave 节点式工作流细节进一步展示了 Figma 将生成式 AI 深度融入设计流程的策略。因上周已作为头条报道，本周下调排名。",
+      "category": "AI设计工具"
+    },
+    {
+      "rank": 9,
+      "title": "Why Your Website Should Never Stop Changing: Autonomous Websites",
+      "source": "Smashing Magazine",
+      "source_url": "https://www.smashingmagazine.com/2026/08/why-website-should-never-stop-changing/",
+      "heat_score": 74,
+      "one_liner": "A discussion of autonomous websites continuously optimized by AI agents after launch, and the design challenges uncovered along the way",
+      "why_matters": "「自主网站」概念将 AI Agent 引入网站持续优化流程，这可能是网页设计的下一个范式转变。文章探讨了上线后由 AI 代理持续优化的网站带来的设计挑战，对理解 AI 与网页设计的融合趋势有前瞻性价值。设计师需要思考：当网站不再「上线即定型」，设计交付的边界在哪里。",
+      "category": "AI设计工具"
+    },
+    {
+      "rank": 10,
+      "title": "Animating CSS Grid Layouts with CSS Anchor Positioning",
+      "source": "Bram.us",
+      "source_url": "https://www.bram.us/2026/09/07/animating-css-grid-layouts-with-css-anchor-positioning/",
+      "heat_score": 74,
+      "one_liner": "A demonstration of how CSS Anchor Positioning makes it possible to create animated grid layouts that reorganize dynamically on viewport changes",
+      "why_matters": "CSS Anchor Positioning 是一项较新的 CSS 特性，这篇文章展示了它如何与 Grid 布局结合实现流畅的动态布局重组动画。对于追求丝滑布局过渡的前端开发者来说，这是一个前沿技术的实战演示，拓展了纯 CSS 动画的可能性边界，对设计系统组件的动态布局有直接参考价值。",
+      "category": "前端开发"
+    }
+  ],
+  "trend_insight": {
+    "summary": "本周国内外设计热点呈现出三条高度共振的主线。第一，AI Agent 正式进入协同办公主战场：国内飞书 8.0 将 Agent 作为独立工作伙伴引入群聊与文档，豆包工作从「写材料」升级到「管流程」；海外 Mastra 登顶 Product Hunt 周榜、Opusfived 以喜剧形式反思 Agent 可靠性，双方都在探索 Agent 与人类协作的新范式。第二，设计交付物正从设计稿向代码级交付跃迁：国内 Modeinspect 实现「设计→PR 直通」、OpenPencil 将设计文件定义为可查询节点树、Lovable Drafts 为 Vibe Coding 引入分支概念；海外 Figma Config 2026 的 Code Layers（上周头条，本周补充 Shader 与 Weave 细节）持续推动这一趋势。第三，AI 产品设计方法论开始沉淀：微软关掉 Word 文本预测揭示了「场景匹配优于技术堆叠」的原则，Figma 2026 AI Report 用数据冷静审视 AI 协作效果，Voice AI UX Patterns 系统梳理 8 种语音交互模式——行业正从「能用 AI」的兴奋期进入「用好 AI」的理性期。差异方面，国内更侧重 Agent 在企业级协同中的体系化落地（飞书+豆包+火山引擎整合），海外则更关注 Agent 开发工具链（Mastra、Flet 1.0）和设计品质的微观打磨（Linear 上下文菜单、CSS Anchor Positioning），折射出两地设计行业在 AI 应用成熟度上的不同侧重。",
+    "keywords": ["Agentic Collaboration", "Design-to-PR", "AI Scene-Matching", "Voice AI UX", "Component-for-Agent"],
+    "related_trends": [
+      "AI Agent 从单点工具向体系化协同办公演进，界面需要同时服务于人类和 Agent 的双读者设计",
+      "设计交付物从设计稿向代码级交付转变，设计师与开发者边界进一步消融",
+      "AI 产品设计从「功能堆叠」转向「场景匹配」，精准介入优于无处不在"
+    ]
+  }
+}

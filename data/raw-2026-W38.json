@@ -1,0 +1,186 @@
+{
+  "week": "2026-W38",
+  "collected_at": "2026-09-18T14:00:00Z",
+  "items": [
+    {
+      "title": "Figma Config 2026: Code Layers, Motion, Shaders, Generative Plugins & Weave Tools",
+      "source": "Figma Blog",
+      "category": "AI设计工具",
+      "score": 95,
+      "one_liner": "Figma's Config 2026 introduces code as a design material, built-in motion design, AI-generated shaders, natural-language plugin creation, and node-based generative Weave workflows — all on the canvas.",
+      "why_it_matters": "这是 Figma 近年来最具突破性的产品更新，将代码、动效、着色器全部整合到设计画布上，打破了设计与开发之间的传统边界。CEO Dylan Field 提出「AI 降低了门槛，但没有提高上限」，强调设计师才是真正的创造力天花板。Code Layers 功能让任意设计图层可一键转换为可交互代码，这对设计转代码工作流有深远影响。",
+      "url": "https://www.figma.com/blog/config-2026-recap/"
+    },
+    {
+      "title": "Figma 2026 AI Report: Can AI Help Us Collaborate Better?",
+      "source": "Figma Blog",
+      "category": "AI基础设施",
+      "score": 88,
+      "one_liner": "Figma publishes its annual AI report examining whether AI can meaningfully improve collaboration in software and design workflows.",
+      "why_it_matters": "该报告基于大规模用户调研数据，探讨了 AI 在协作场景中的实际效果与局限性，为设计团队制定 AI 战略提供数据支撑。在 AI 炒作热潮中，这份报告提供了冷静的、基于证据的分析视角，对设计团队决策有重要参考价值。",
+      "url": "https://www.figma.com/blog/2026-ai-report/"
+    },
+    {
+      "title": "Mastra: Build AI Agents with a Modern TypeScript Stack",
+      "source": "Product Hunt",
+      "category": "AI基础设施",
+      "score": 80,
+      "one_liner": "Mastra Factory ranked #1 Product of the Week on Product Hunt, offering a TypeScript-first framework for building production-grade AI agents.",
+      "why_it_matters": "Mastra 作为 Product Hunt 本周冠军产品，代表了 AI Agent 开发工具的最新趋势——以 TypeScript 为核心的现代技术栈降低 AI Agent 构建门槛。其产品排名也反映了对开发者友好的 AI 基础设施工具的持续高需求。",
+      "url": "https://www.producthunt.com/products/mastra"
+    },
+    {
+      "title": "Voice AI UX Patterns: Designing for Conversational AI Agents",
+      "source": "UXDesign.cc (Smashing Community)",
+      "category": "UX研究",
+      "score": 82,
+      "one_liner": "An in-depth exploration of 8 emerging Voice AI UX patterns, the perceived role of the AI agent within each, and key design decisions and limitations.",
+      "why_it_matters": "语音 AI 正在成为下一代交互界面，但目前缺乏成熟的 UX 设计范式。这篇文章系统梳理了 8 种语音 AI 交互模式，对正在探索语音产品的设计团队具有直接参考价值。它揭示了语音交互中的角色认知差异如何影响设计决策。",
+      "url": "https://uxdesign.cc/8-voice-aiux-patterns-81324c8feaa0"
+    },
+    {
+      "title": "Stop Treating CSS Container Queries Like Traditional Media Queries",
+      "source": "Smashing Magazine",
+      "category": "前端开发",
+      "score": 78,
+      "one_liner": "A deep dive into how container queries fundamentally differ from media queries, enabling reusable components that respond naturally to their contexts.",
+      "why_it_matters": "Container Queries 是 CSS 近年最重要的特性之一，但许多开发者仍以媒体查询的思维使用它们。这篇文章澄清了两者本质差异，帮助前端团队正确利用容器查询实现真正的组件级响应式设计，这对设计系统组件的可复用性至关重要。",
+      "url": "https://www.smashingmagazine.com/2026/09/stop-treating-css-container-queries-traditional-media-queries/"
+    },
+    {
+      "title": "Building Contextual Menus: Linear's Approach to Invisible Details",
+      "source": "Linear (Designer News / Smashing Community)",
+      "category": "移动设计",
+      "score": 80,
+      "one_liner": "Linear's design team shares how they engineered a small but impactful improvement to contextual sub-menus, showcasing attention to micro-interaction design.",
+      "why_it_matters": "Linear 一直是产品设计品质的标杆，这篇文章展示了他们对上下文菜单这一「不可见的细节」的极致打磨。对于追求交互细节完美的产品团队来说，这是理解顶级 SaaS 产品如何做到体验一致性和效率的绝佳案例。文中关于子菜单展开逻辑的设计决策尤其有参考价值。",
+      "url": "https://linear.app/now/invisible-details"
+    },
+    {
+      "title": "Bencho: A Library of Interactive UI Blocks You Can Explore, Tweak, and Take",
+      "source": "Sidebar.io",
+      "category": "前端开发",
+      "score": 72,
+      "one_liner": "Bencho offers a collection of interactive UI blocks that users can explore, modify, and integrate directly into their projects.",
+      "why_it_matters": "UI Blocks 库正在成为前端开发的新趋势，Bencho 的独特之处在于让开发者可以在浏览器中实时调整和导出组件代码。这种「所见即所得」的组件分发方式降低了 UI 组件的使用门槛，对设计系统和前端团队有实用价值。",
+      "url": "https://bencho.dev/"
+    },
+    {
+      "title": "OpensourceUI: 200+ Production-Ready React & Next.js Components",
+      "source": "Sidebar.io",
+      "category": "设计系统",
+      "score": 70,
+      "one_liner": "A free, MIT-licensed library of 200+ production-ready React and Next.js components built with TypeScript and Tailwind CSS v4.",
+      "why_it_matters": "开源 UI 组件库市场竞争激烈，OpensourceUI 以 200+ 生产级组件、MIT 许可和 Tailwind CSS v4 支持为卖点，对中小团队快速搭建产品界面有直接价值。它代表了开源设计系统资源的持续丰富趋势。",
+      "url": "https://opensourceui.in/"
+    },
+    {
+      "title": "DialKit: Tune Interfaces in Real Time with Live Controls Beside Your UI",
+      "source": "Sidebar.io",
+      "category": "AI设计工具",
+      "score": 68,
+      "one_liner": "DialKit places live, interactive controls beside the UI being built, enabling real-time interface tuning and design refinement without code changes.",
+      "why_it_matters": "实时界面调优工具解决了设计师与开发者在参数调试上的协作痛点。DialKit 的「控件即界面」理念让设计微调变得即时且可视化，对提升设计交付效率有实际意义，特别适合需要精细控制视觉参数的场景。",
+      "url": "https://www.dialkit.dev/"
+    },
+    {
+      "title": "CUBE Type: A Free Isometric Typography Playground",
+      "source": "Sidebar.io",
+      "category": "移动设计",
+      "score": 65,
+      "one_liner": "A free, no-sign-up playground for isometric typography that lets you type words and export isometric block letters instantly.",
+      "why_it_matters": "等距字体设计工具为品牌视觉和创意设计提供了新的表现形式。CUBE Type 的免注册、即用即走体验降低了创意工具的使用门槛，也展示了小型 Web 工具如何通过极致专注单一功能来提供价值。",
+      "url": "https://typeincube.com/"
+    },
+    {
+      "title": "Opusfived: An Interactive Comedy About Agentic AI Assistants",
+      "source": "Sidebar.io",
+      "category": "UX研究",
+      "score": 75,
+      "one_liner": "An interactive comedy experience about agentic AI assistants, with a hilariously simple premise: 'Make one button blue. Change nothing else.'",
+      "why_it_matters": "这个作品以幽默的方式揭示了当前 AI Agent 在遵循简单指令时的失败模式——一个看似最简单的要求（把一个按钮变蓝）却引发一连串意外行为。它以产品设计视角提供了对 AI 可靠性和用户体验边界的深刻反思，对正在构建 AI 产品的团队具有警示意义。",
+      "url": "https://opusfived.dev/"
+    },
+    {
+      "title": "Optical Effects in User Interfaces: Balancing Icons, Shapes & Corners",
+      "source": "Medium (Smashing Community)",
+      "category": "UX研究",
+      "score": 70,
+      "one_liner": "A guide on creating optically balanced icons, correct shape alignment, and perfect corner rounding using principles of human vision.",
+      "why_it_matters": "光学错觉在 UI 设计中无处不在——等尺寸的图标在视觉上并不等大，等圆角的矩形看起来并不等圆。这篇指南系统讲解了如何利用人眼视觉原理来实现视觉平衡，是 UI 设计师提升界面精致度的实用参考。",
+      "url": "https://medium.com/design-bridges/optical-effects-9fca82b4cd9a"
+    },
+    {
+      "title": "Animating CSS Grid Layouts with CSS Anchor Positioning",
+      "source": "Bram.us (Smashing Community)",
+      "category": "前端开发",
+      "score": 75,
+      "one_liner": "A demonstration of how CSS Anchor Positioning makes it possible to create animated grid layouts that reorganize dynamically on viewport changes.",
+      "why_it_matters": "CSS Anchor Positioning 是一项较新的 CSS 特性，这篇文章展示了它如何与 Grid 布局结合实现流畅的动态布局重组动画。对于追求丝滑布局过渡的前端开发者来说，这是一个前沿技术的实战演示，拓展了纯 CSS 动画的可能性边界。",
+      "url": "https://www.bram.us/2026/09/07/animating-css-grid-layouts-with-css-anchor-positioning/"
+    },
+    {
+      "title": "The Most Important Product Decision Is What You Don't Build",
+      "source": "Hacker News / liamnugent.me",
+      "category": "产品策略",
+      "score": 76,
+      "one_liner": "An essay arguing that the discipline of deciding what NOT to build is more critical—and more undervalued—than shipping new features.",
+      "why_it_matters": "这篇文章直击产品团队的核心痛点：庆祝发布却不庆祝砍掉功能。在功能蔓延普遍困扰产品团队的今天，作者提出「不做什么」才是最重要的产品决策，这对产品负责人制定优先级策略有深刻的思维启发。在 HN 获得 80 分和 25 条讨论。",
+      "url": "https://liamnugent.me"
+    },
+    {
+      "title": "Why Your Website Should Never Stop Changing: Autonomous Websites",
+      "source": "Smashing Magazine",
+      "category": "AI设计工具",
+      "score": 74,
+      "one_liner": "A discussion of autonomous websites continuously optimized by AI agents after launch, and the design challenges uncovered along the way.",
+      "why_it_matters": "「自主网站」概念将 AI Agent 引入网站持续优化流程，这可能是网页设计的下一个范式转变。文章探讨了上线后由 AI 代理持续优化的网站带来的设计挑战，对理解 AI 与网页设计的融合趋势有前瞻性价值。",
+      "url": "https://www.smashingmagazine.com/2026/08/why-website-should-never-stop-changing/"
+    },
+    {
+      "title": "Rethinking Data Visualisation: A UX Approach to Dashboards That Drive Decisions",
+      "source": "Smashing Magazine",
+      "category": "UX研究",
+      "score": 72,
+      "one_liner": "Explores applying structured UX thinking to dashboards and data presentations to ensure insights actually drive decisions rather than just displaying data.",
+      "why_it_matters": "数据仪表盘设计是 B2B 产品的核心能力之一，但很多仪表盘只展示数据却不驱动决策。这篇文章提出以 UX 思维重构数据可视化流程，确保仪表盘真正服务于决策而非仅为信息展示，对企业级产品设计团队有直接参考价值。",
+      "url": "https://www.smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/"
+    },
+    {
+      "title": "New EU Guidelines for AI Labelling: What the Rules Mean for Products",
+      "source": "Smashing Magazine",
+      "category": "AI基础设施",
+      "score": 70,
+      "one_liner": "Coverage of new EU guidelines on when AI labels are required and what the rules mean for AI-powered features and products.",
+      "why_it_matters": "欧盟 AI 标签新规将直接影响所有在欧盟市场运营的 AI 产品设计。对于全球化产品团队来说，理解这些合规要求是设计 AI 功能时的必要前提。这篇文章梳理了关键规则条款，帮助设计团队在产品早期就考虑合规性。",
+      "url": "https://www.smashingmagazine.com/2026/08/eu-guidelines-ai-labelling/"
+    },
+    {
+      "title": "Flet 1.0: Build Cross-Platform Apps in Python",
+      "source": "Hacker News",
+      "category": "前端开发",
+      "score": 68,
+      "one_liner": "Flet 1.0 releases with the ability to build cross-platform desktop, mobile, and web apps using Python, with a Flutter-based rendering engine.",
+      "why_it_matters": "Flet 1.0 的发布为 Python 开发者打开了跨平台应用开发的大门，降低了非前端背景开发者构建 GUI 应用的门槛。在 HN 获得 88 分和 41 条讨论，显示出社区对 Python 跨平台开发工具的强烈兴趣。对于设计团队中的非前端成员来说，这也是快速原型验证的新选项。",
+      "url": "https://flet.dev/"
+    },
+    {
+      "title": "Product Design Psychology: A Free Book on Understanding the User's and Designer's Mind",
+      "source": "ProductDesignPsychology.com (Smashing Community)",
+      "category": "UX研究",
+      "score": 72,
+      "one_liner": "A free online book helping readers understand both the user's and the designer's mind, and how UI mechanics shape what gets designed and shipped.",
+      "why_it_matters": "这本免费书籍从心理学视角解析产品设计，同时关注用户认知和设计师认知两个维度。它不仅仅讲用户心理，还深入探讨了设计师自身认知偏见如何影响最终产品形态，对希望提升设计决策质量的团队是难得的深度资源。",
+      "url": "https://productdesignpsychology.com/"
+    },
+    {
+      "title": "How Baseline Can Help You Ship Less JavaScript",
+      "source": "Smashing Magazine",
+      "category": "前端开发",
+      "score": 66,
+      "one_liner": "A practical guide to auditing your dependencies and finding what the web platform can now handle natively, reducing reliance on JavaScript libraries.",
+      "why_it_matters": "Baseline 项目帮助开发者判断哪些 Web 平台特性已跨浏览器稳定可用，从而减少对 JavaScript 库的依赖。这篇文章提供了实操指南，对前端团队优化包体积和提升性能有直接帮助，也反映了「少即是多」的前端工程趋势。",
+      "url": "https://www.smashingmagazine.com/2026/08/how-baseline-can-help-ship-less-javascript/"
+    }
+  ]
+}

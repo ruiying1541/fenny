@@ -3,6 +3,14 @@
   "site_description": "产品设计 AI 热点月刊",
   "issues": [
     {
+      "period": "2026-W38",
+      "date": "2026-09-18",
+      "title": "AI Agent进入协同办公，设计交付从设计稿到代码级跃迁",
+      "item_count": 20,
+      "url": "./week/2026-W38.html",
+      "data_url": "./data/2026-W38.json"
+    },
+    {
       "period": "2026-W37",
       "date": "2026-09-11",
       "title": "折叠屏UI范式与AI设计工具共振",

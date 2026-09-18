@@ -4,26 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rylee | 2026-W38 | Issue #3</title>
-  <link rel="stylesheet" href="./assets/style.css">
-  <meta name="description" content="Rylee - 产品设计 AI 热点周报。每周由 AI 精选 20 条设计热点（国内 10 条 + 海外 10 条）。">
+  <link rel="stylesheet" href="../assets/style.css">
   <meta name="theme-color" content="#0a0a0b">
 </head>
 <body>
   <button class="mobile-toggle" onclick="document.querySelector('.sidebar').classList.toggle('open')" aria-label="Toggle menu">&#9776;</button>
 
   <aside class="sidebar">
-    <a href="./" class="sidebar-brand">
-      <img src="./assets/logo.png" alt="Rylee" class="logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+    <a href="../" class="sidebar-brand">
+      <img src="../assets/logo.png" alt="Rylee" class="logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
       <span class="logo-fallback" style="display:none"></span>
       <span>Rylee</span>
     </a>
     <nav class="sidebar-nav">
       <div class="sidebar-section-label">频道</div>
-      <a href="./" class="sidebar-link active">
+      <a href="../" class="sidebar-link active">
         <span class="sidebar-icon">&#9679;</span>
         <span>热点追踪</span>
       </a>
-      <a href="./github-ui/" class="sidebar-link">
+      <a href="../github-ui/" class="sidebar-link">
         <span class="sidebar-icon">&#9733;</span>
         <span>GitHub 排行</span>
       </a>
@@ -35,6 +34,11 @@
 
   <div class="content-wrapper">
   <main class="container">
+    <nav class="breadcrumb">
+      <a href="../">热点追踪</a>
+      <span class="sep">&#8250;</span>
+      <span class="current">2026-W38</span>
+    </nav>
     <header class="hero">
       <div class="hero-badge"><span class="dot"></span> 周刊</div>
       <h1 class="hero-title"><span class="accent-word">AI Agent</span>进入协同办公，设计交付从设计稿到代码级跃迁</h1>
@@ -47,14 +51,13 @@
       </div>
     </header>
 
-    <!-- ======== 国内热点 TOP 10 ======== -->
+    <!-- ======== 国内热点 TOP 10 (详情) ======== -->
     <div class="region-section cn">
       <div class="region-header">
         <span class="region-icon cn">CN</span>
         <span class="region-label">国内热点</span>
       </div>
       <section class="hotspots">
-
         <article class="hotspot-card top-3">
           <div class="hotspot-rank">1</div>
           <div class="hotspot-content">
@@ -65,6 +68,11 @@
               <span class="hotspot-score">90</span>
             </div>
             <p class="hotspot-one-liner">Feishu 8.0 pivots from human-to-human to human-Agent collaboration, with AI partners entering chats, docs and workflows</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>飞书从「人和人的协同办公平台」转向「人和 Agent 一起工作的平台」，意味着协同办公产品的设计对象从人扩展到 Agent。豆包工作伙伴拥有独立身份、权限和记忆，可进入群聊、参会并主动发现任务。界面需要同时服务于人类和 AI Agent，权限体系和上下文设计成为企业级产品设计的新关键命题。</p>
+            </div>
+            <a href="https://www.tmtpost.com/8141020.html" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -78,6 +86,11 @@
               <span class="hotspot-score">85</span>
             </div>
             <p class="hotspot-one-liner">Anthropic merges Cowork into Chat and adds Docs/Slides, creating a unified AI workspace for conversation, execution and presentation</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>Claude 将独立 Cowork 的 Agent 执行能力并入 Chat 对话入口，用户无需再区分产品形态。新增 Docs 与 Slides 使写作与演示在 Claude 内闭环完成，直接对标 Google Docs+Gemini 办公生态。这标志着 AI 办公工具从分散功能向统一工作空间演进，对设计师快速生成提案和汇报材料有直接价值。</p>
+            </div>
+            <a href="https://news.qiniu.com/archives/1789610481479" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -91,6 +104,11 @@
               <span class="hotspot-score">82</span>
             </div>
             <p class="hotspot-one-liner">Tencent's ChatterFly combines voice input with AI intent understanding, turning spoken language into structured documents across scenarios</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>ChatterFly 区别于传统输入法的简单语音转文字，能结合上下文理解用户意图，实现口语到成稿的自动整理与润色。内置会议纪要、工作汇报、项目推进等六款场景 Skill，支持跨应用调用。这代表了「语音输入+AI 写作」融合的新产品形态，对输入交互设计有启发意义。</p>
+            </div>
+            <a href="https://news.mydrivers.com/1/1152/1152070.htm" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -104,6 +122,11 @@
               <span class="hotspot-score">82</span>
             </div>
             <p class="hotspot-one-liner">Microsoft disables text prediction in Word by default, revealing that AI value depends on scene-matching not technology level</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>微软将 Word 和 Outlook 全平台文本预测从默认开启改为默认关闭，核心原因在于场景错配——文本预测适合快速纠错场景，但在正式文档写作中打断用户思考流。这给 AI 产品设计带来深层启示：用户对 AI 的接纳度取决于 AI 与当前交互场景的匹配度，「精准介入胜过无处不在」是 AI 功能设计的关键原则。</p>
+            </div>
+            <a href="https://www.tmtpost.com/agent/ai-article?id=20184" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -117,6 +140,11 @@
               <span class="hotspot-score">81</span>
             </div>
             <p class="hotspot-one-liner">OpenPencil treats design files as readable, queryable, modifiable node trees, supporting Figma import with CLI, MCP Server and Vue SDK</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>OpenPencil 将设计文件视为「可读、可查询、可修改的节点树」，打破设计文件只能在特定软件中打开的传统。提供桌面端、网页端、CLI、MCP Server 和 Vue SDK，设计师、脚本和 AI Agent 可通过同一套操作创建和调整界面。MIT 协议开源，代表设计资产与代码工作流边界消融的新趋势。</p>
+            </div>
+            <a href="https://www.uisdc.com/design-assets-weekly" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -130,6 +158,11 @@
               <span class="hotspot-score">80</span>
             </div>
             <p class="hotspot-one-liner">Modeinspect lets designers adjust UI like traditional tools or explore with AI, with changes becoming engineer-reviewable PRs</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>Modeinspect 打通了设计到开发的链路——设计师调整界面的结果可直接变成「工程师可以 Review 的 PR」。这种设计→PR 直通模式代表了 AI 原生设计工具的新范式：不再是设计稿交付，而是代码级交付。对设计协作工作流和设计交付标准有深远影响。</p>
+            </div>
+            <a href="https://www.uisdc.com/foldable-iphone-weekly" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -143,6 +176,11 @@
               <span class="hotspot-score">77</span>
             </div>
             <p class="hotspot-one-liner">BoardUI is a React+Tailwind design system built for AI products, with Agent progress, Prompt Composer and data tables modules</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>BoardUI 是首个专为 AI 产品准备的设计系统，包含 50+ 组件、180+ building blocks、400+ 设计 Token。提供 Agent 进度、Prompt Composer 等 AI 产品特有模块，通过 CLI 安装。这填补了 AI 产品设计系统的空白，为构建 Agentic Interface 的团队提供了完整的组件基础。</p>
+            </div>
+            <a href="https://www.uisdc.com/design-assets-weekly" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -156,6 +194,11 @@
               <span class="hotspot-score">77</span>
             </div>
             <p class="hotspot-one-liner">Lovable Drafts introduces branching for Vibe Coding, each draft with independent chat and preview for parallel design exploration</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>Lovable Drafts 让项目修改前可创建独立 Draft，每个 Draft 拥有独立 Chat 和 Preview，支持多人同时探索不同布局、视觉或文案，最后选择性合并到正式项目。这相当于将 Git 分支概念引入 Vibe Coding，解决了 AI 设计工具中多人并行探索和方案对比的痛点。</p>
+            </div>
+            <a href="https://www.uisdc.com/foldable-iphone-weekly" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -169,6 +212,11 @@
               <span class="hotspot-score">76</span>
             </div>
             <p class="hotspot-one-liner">ByteDance's Doubao Work evolves from writing materials to managing workflows, signaling enterprise AI Agent competition entering system-level</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>豆包工作在飞书未来无限大会上正式发布，标志着字节跳动将豆包、飞书和火山引擎三大业务整合为企业 AI 体系。从「写材料」升级到「管流程」，意味着 AI Agent 不再是单点工具，而是进入体系竞争阶段。对企业级 AI 产品设计和组织协作模式有深远影响。</p>
+            </div>
+            <a href="https://m.chinastarmarket.cn/detail/2474898" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -182,20 +230,23 @@
               <span class="hotspot-score">76</span>
             </div>
             <p class="hotspot-one-liner">Xiaomi's MiMo team livestreams RL training of MiMo-V2.6, openly showing the costs and process of large model training</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>小米 MiMo 团队负责人罗福莉沉寂半年后官宣强化学习研究，并在官网上线实时看板直播 MiMo-V2.6 模型的 RL 训练过程。这种「透明炼丹」的方式在 AI 行业极为罕见，展示了小米在 AI 模型领域的野心和开放态度。更强的国产 AI 模型意味着 AI 设计工具的底层能力将持续提升。</p>
+            </div>
+            <a href="https://www.qbitai.com/2026/09/490950.html" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
-
       </section>
     </div>
 
-    <!-- ======== 海外热点 TOP 10 ======== -->
+    <!-- ======== 海外热点 TOP 10 (详情) ======== -->
     <div class="region-section global">
       <div class="region-header">
         <span class="region-icon global">GL</span>
         <span class="region-label">海外热点</span>
       </div>
       <section class="hotspots">
-
         <article class="hotspot-card top-3">
           <div class="hotspot-rank">1</div>
           <div class="hotspot-content">
@@ -206,6 +257,11 @@
               <span class="hotspot-score">82</span>
             </div>
             <p class="hotspot-one-liner">An in-depth exploration of 8 emerging Voice AI UX patterns, the perceived role of the AI agent within each, and key design decisions</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>语音 AI 正在成为下一代交互界面，但目前缺乏成熟的 UX 设计范式。这篇文章系统梳理了 8 种语音 AI 交互模式，对正在探索语音产品的设计团队具有直接参考价值。它揭示了语音交互中的角色认知差异如何影响设计决策，是 Voice AI 设计领域的先行者文档。</p>
+            </div>
+            <a href="https://uxdesign.cc/8-voice-aiux-patterns-81324c8feaa0" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -219,6 +275,11 @@
               <span class="hotspot-score">82</span>
             </div>
             <p class="hotspot-one-liner">Figma publishes its annual AI report examining whether AI can meaningfully improve collaboration in software and design workflows</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>该报告基于大规模用户调研数据，探讨了 AI 在协作场景中的实际效果与局限性，为设计团队制定 AI 战略提供数据支撑。在 AI 炒作热潮中，这份报告提供了冷静的、基于证据的分析视角，对设计团队决策有重要参考价值。它回答了一个核心问题：AI 是否真的在改善协作，还是只是加速了个人执行。</p>
+            </div>
+            <a href="https://www.figma.com/blog/2026-ai-report/" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -232,6 +293,11 @@
               <span class="hotspot-score">80</span>
             </div>
             <p class="hotspot-one-liner">Linear's design team shares how they engineered a small but impactful improvement to contextual sub-menus, showcasing micro-interaction design</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>Linear 一直是产品设计品质的标杆，这篇文章展示了他们对上下文菜单这一「不可见的细节」的极致打磨。对于追求交互细节完美的产品团队来说，这是理解顶级 SaaS 产品如何做到体验一致性和效率的绝佳案例。文中关于子菜单展开逻辑的设计决策尤其有参考价值。</p>
+            </div>
+            <a href="https://linear.app/now/invisible-details" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -245,6 +311,11 @@
               <span class="hotspot-score">79</span>
             </div>
             <p class="hotspot-one-liner">An essay arguing that the discipline of deciding what NOT to build is more critical—and more undervalued—than shipping new features</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>这篇文章直击产品团队的核心痛点：庆祝发布却不庆祝砍掉功能。在功能蔓延普遍困扰产品团队的今天，作者提出「不做什么」才是最重要的产品决策，这对产品负责人制定优先级策略有深刻的思维启发。在 HN 获得 80 分和 25 条讨论，引发了广泛共鸣。</p>
+            </div>
+            <a href="https://liamnugent.me" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -258,6 +329,11 @@
               <span class="hotspot-score">78</span>
             </div>
             <p class="hotspot-one-liner">An interactive comedy experience about agentic AI assistants, with a hilariously simple premise: 'Make one button blue. Change nothing else.'</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>这个作品以幽默的方式揭示了当前 AI Agent 在遵循简单指令时的失败模式——一个看似最简单的要求（把一个按钮变蓝）却引发一连串意外行为。它以产品设计视角提供了对 AI 可靠性和用户体验边界的深刻反思，对正在构建 AI 产品的团队具有警示意义。</p>
+            </div>
+            <a href="https://opusfived.dev/" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -271,6 +347,11 @@
               <span class="hotspot-score">77</span>
             </div>
             <p class="hotspot-one-liner">Mastra Factory ranked #1 Product of the Week on Product Hunt, offering a TypeScript-first framework for building production-grade AI agents</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>Mastra 作为 Product Hunt 本周冠军产品，代表了 AI Agent 开发工具的最新趋势——以 TypeScript 为核心的现代技术栈降低 AI Agent 构建门槛。其产品排名也反映了对开发者友好的 AI 基础设施工具的持续高需求，对设计团队构建 AI 驱动的产品功能有间接参考价值。</p>
+            </div>
+            <a href="https://www.producthunt.com/products/mastra" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -284,6 +365,11 @@
               <span class="hotspot-score">76</span>
             </div>
             <p class="hotspot-one-liner">Flet 1.0 releases with the ability to build cross-platform desktop, mobile, and web apps using Python, with a Flutter-based rendering engine</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>Flet 1.0 的发布为 Python 开发者打开了跨平台应用开发的大门，降低了非前端背景开发者构建 GUI 应用的门槛。在 HN 获得 88 分和 41 条讨论，显示出社区对 Python 跨平台开发工具的强烈兴趣。对于设计团队中的非前端成员来说，这也是快速原型验证的新选项。</p>
+            </div>
+            <a href="https://flet.dev/" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -297,6 +383,11 @@
               <span class="hotspot-score">75</span>
             </div>
             <p class="hotspot-one-liner">Figma's Config 2026 introduces code as a design material, built-in motion, AI-generated shaders, natural-language plugin creation, and Weave workflows</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>Config 2026 是 Figma 近年来最具突破性的更新，将代码、动效、着色器全部整合到设计画布上。Code Layers 让任意设计图层可一键转换为可交互代码，对设计转代码工作流有深远影响。本周新增的 Shader 生成和 Weave 节点式工作流细节进一步展示了 Figma 将生成式 AI 深度融入设计流程的策略。因上周已作为头条报道，本周下调排名。</p>
+            </div>
+            <a href="https://www.figma.com/blog/config-2026-recap/" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -310,6 +401,11 @@
               <span class="hotspot-score">74</span>
             </div>
             <p class="hotspot-one-liner">A discussion of autonomous websites continuously optimized by AI agents after launch, and the design challenges uncovered along the way</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>「自主网站」概念将 AI Agent 引入网站持续优化流程，这可能是网页设计的下一个范式转变。文章探讨了上线后由 AI 代理持续优化的网站带来的设计挑战，对理解 AI 与网页设计的融合趋势有前瞻性价值。设计师需要思考：当网站不再「上线即定型」，设计交付的边界在哪里。</p>
+            </div>
+            <a href="https://www.smashingmagazine.com/2026/08/why-website-should-never-stop-changing/" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
 
@@ -323,9 +419,13 @@
               <span class="hotspot-score">74</span>
             </div>
             <p class="hotspot-one-liner">A demonstration of how CSS Anchor Positioning makes it possible to create animated grid layouts that reorganize dynamically on viewport changes</p>
+            <div class="hotspot-why">
+              <div class="hotspot-why-label">Why it matters</div>
+              <p>CSS Anchor Positioning 是一项较新的 CSS 特性，这篇文章展示了它如何与 Grid 布局结合实现流畅的动态布局重组动画。对于追求丝滑布局过渡的前端开发者来说，这是一个前沿技术的实战演示，拓展了纯 CSS 动画的可能性边界，对设计系统组件的动态布局有直接参考价值。</p>
+            </div>
+            <a href="https://www.bram.us/2026/09/07/animating-css-grid-layouts-with-css-anchor-positioning/" class="hotspot-link" target="_blank" rel="noopener">阅读原文 <span class="arrow">&rarr;</span></a>
           </div>
         </article>
-
       </section>
     </div>
 
@@ -341,18 +441,20 @@
         <span class="keyword-tag">Voice AI UX</span>
         <span class="keyword-tag">Component-for-Agent</span>
       </div>
-    </section>
-
-    <!-- ======== 往期回顾 ======== -->
-    <section class="past-issues">
-      <div class="past-issues-label">往期回顾</div>
-      <div id="past-issues-list">
-        <p style="text-align:center; color:var(--text-tertiary); padding:var(--s4);">加载中...</p>
+      <div class="trend-related">
+        <div class="trend-related-label">关联趋势</div>
+        <ul class="trend-related-list">
+          <li>AI Agent 从单点工具向体系化协同办公演进，界面需要同时服务于人类和 Agent 的双读者设计</li>
+          <li>设计交付物从设计稿向代码级交付转变，设计师与开发者边界进一步消融</li>
+          <li>AI 产品设计从「功能堆叠」转向「场景匹配」，精准介入优于无处不在</li>
+        </ul>
       </div>
     </section>
 
     <nav class="issue-nav">
-      <a href="./archive.html" class="nav-center">查看全部 <span class="arrow-right">&rarr;</span></a>
+      <a href="./2026-W37.html" class="nav-prev">&larr; 上一期</a>
+      <a href="../archive.html" class="nav-center">查看全部 <span class="arrow-right">&rarr;</span></a>
+      <span class="nav-next-placeholder"></span>
     </nav>
   </main>
 
@@ -363,28 +465,5 @@
     </div>
   </footer>
   </div>
-
-  <script>
-    fetch('./index.json')
-      .then(function(r) { return r.json(); })
-      .then(function(data) {
-        var list = document.getElementById('past-issues-list');
-        if (!data.issues || data.issues.length === 0) {
-          list.innerHTML = '<p style="text-align:center; color:var(--text-tertiary);">暂无往期</p>';
-          return;
-        }
-        list.innerHTML = data.issues.map(function(issue) {
-          return '<a href="' + issue.url + '" class="archive-item">' +
-            '<span class="archive-number">' + issue.period + '</span>' +
-            '<span class="archive-date">' + issue.date + '</span>' +
-            '<span class="archive-title">' + issue.title + '</span>' +
-          '</a>';
-        }).join('');
-      })
-      .catch(function() {
-        document.getElementById('past-issues-list').innerHTML =
-          '<p style="text-align:center; color:var(--accent);">加载失败</p>';
-      });
-  </script>
 </body>
 </html>
