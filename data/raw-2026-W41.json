@@ -1,0 +1,366 @@
+{
+  "week": "2026-W41",
+  "collected_at": "2026-10-09T06:16:45.076383+00:00",
+  "items": [
+    {
+      "title": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "source": "GitHub",
+      "category": "AI设计工具",
+      "score": 94,
+      "one_liner": "AI skill injecting professional design intelligence into coding agents; massive star momentum this week.",
+      "why_it_matters": "本期 GitHub 上增长最猛的设计类仓库，把资深 UI/UX 规范封装成可执行的 AI 技能，直接拉低 AI 生成专业界面的门槛。对产品设计师而言，「设计判断力」正在被编译成技能包，接单与评审工作流都会随之改变。",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
+    },
+    {
+      "title": "DavidHDev/react-bits",
+      "source": "GitHub",
+      "category": "动效设计",
+      "score": 90,
+      "one_liner": "Open-source collection of animated, interactive, fully customizable React components; leads the component-library scene.",
+      "why_it_matters": "动效组件库一周新增近七千 star，说明微交互与动效已从点缀变成产品体验的标配能力。react-bits 提供可嵌入的动画组件，代表通用组件库之外的「体验组件」新赛道正在崛起。",
+      "url": "https://github.com/DavidHDev/react-bits"
+    },
+    {
+      "title": "Jakubantalik/transitions.dev",
+      "source": "GitHub",
+      "category": "动效设计",
+      "score": 78,
+      "one_liner": "UI motion AI agent plus a library of 43+ crafted transitions that slot into your design workflow.",
+      "why_it_matters": "将 UI 动效做成 AI agent 与精选过渡动效库的组合，把动效设计从手工调参变为可复用资产。对设计系统团队来说，意味着动效规范可以用代码+agent 的方式标准化分发。",
+      "url": "https://github.com/Jakubantalik/transitions.dev"
+    },
+    {
+      "title": "lucide-icons/lucide",
+      "source": "GitHub",
+      "category": "设计系统",
+      "score": 72,
+      "one_liner": "Community-driven, consistent open-source icon toolkit; solid weekly star gains.",
+      "why_it_matters": "Lucide 是社区最活跃的开源图标生态，本周依旧保持高增长，印证「开源图标即设计系统基础设施」的趋势。设计团队可将图标资产管理与版本化完全开源化。",
+      "url": "https://github.com/lucide-icons/lucide"
+    },
+    {
+      "title": "saadeghi/daisyui",
+      "source": "GitHub",
+      "category": "前端开发",
+      "score": 70,
+      "one_liner": "Most popular free Tailwind CSS component library; steady climb above 42k stars.",
+      "why_it_matters": "daisyui 稳居 Tailwind 组件库头部，本周 star 持续上涨，说明「类名式」组件方案仍是中小团队快速搭界面的默认选择，对设计交付的标准化有参考价值。",
+      "url": "https://github.com/saadeghi/daisyui"
+    },
+    {
+      "title": "heroui-inc/heroui",
+      "source": "GitHub",
+      "category": "设计系统",
+      "score": 68,
+      "one_liner": "Beautiful, fast, modern React UI library (formerly NextUI); strong weekly growth.",
+      "why_it_matters": "HeroUI 一周上涨过千 star，React 生态对高颜值、高性能组件库的需求依然旺盛。设计系统团队可将其作为新一代 React 组件的审美与实现基准。",
+      "url": "https://github.com/heroui-inc/heroui"
+    },
+    {
+      "title": "mui/material-ui",
+      "source": "GitHub",
+      "category": "设计系统",
+      "score": 65,
+      "one_liner": "Google Material Design React component library; crossed 99k stars this week.",
+      "why_it_matters": "Material UI 逼近 10 万 star，作为最主流的企业级 React 组件库持续被采用。对需要成熟国际化组件体系的产品团队，MUI 仍是稳妥的基础设施选择。",
+      "url": "https://github.com/mui/material-ui"
+    },
+    {
+      "title": "chakra-ui/panda",
+      "source": "GitHub",
+      "category": "设计转代码",
+      "score": 74,
+      "one_liner": "Universal, type-safe CSS-in-JS engine for design systems, now with design-token support traction.",
+      "why_it_matters": "Panda 用 Rust 实现类型安全 CSS-in-JS，把设计 token 直接变成可在构建期校验的代码资产。这是「设计转代码」链条里关键的一环，值得设计系统工程师重点跟进。",
+      "url": "https://github.com/chakra-ui/panda"
+    },
+    {
+      "title": "carbon-design-system/carbon",
+      "source": "GitHub",
+      "category": "设计系统",
+      "score": 66,
+      "one_liner": "IBM's open-source Carbon design system; actively pushed with fresh releases.",
+      "why_it_matters": "IBM Carbon 本周活跃更新，企业级设计系统持续开源演进，说明大厂仍把开源设计系统当作平台战略的一部分。对 B2B 产品的组件规范有较强的借鉴意义。",
+      "url": "https://github.com/carbon-design-system/carbon"
+    },
+    {
+      "title": "Manavarya09/design-extract",
+      "source": "GitHub",
+      "category": "设计转代码",
+      "score": 70,
+      "one_liner": "Extract any website's complete design system with one command — DTCG tokens included.",
+      "why_it_matters": "一行命令抽取任意网站的设计系统并输出 DTCG tokens，把「逆向设计系统」流程自动化。对竞品分析和设计系统迁移场景极具价值，是设计自动化的重要工具。",
+      "url": "https://github.com/Manavarya09/design-extract"
+    },
+    {
+      "title": "plugin87/ux-ui-agent-skills",
+      "source": "GitHub",
+      "category": "设计转代码",
+      "score": 60,
+      "one_liner": "Turn Claude into a senior design architect with DTCG tokens, 52 components, and WCAG 2.2.",
+      "why_it_matters": "把 UX/UI 设计架构能力打包成 Agent Skills，让 Claude 直接产出符合 WCAG 与设计 token 的界面。意味着无障碍与设计规范正被内化进 AI 编码流程。",
+      "url": "https://github.com/plugin87/ux-ui-agent-skills"
+    },
+    {
+      "title": "Figma Agent — prompt, edit and prototype without leaving the canvas",
+      "source": "Product Hunt",
+      "category": "AI设计工具",
+      "score": 92,
+      "one_liner": "Figma Agent ships on Product Hunt right at GA: prompt, edit and prototype without leaving the canvas.",
+      "why_it_matters": "Figma Agent 本周正式 GA 并登上 Product Hunt，支持画布内自然语言提示编辑、生成式插件与 AI 图像修改。它与 Figma 官方 10 月 6 日发布说明相互印证，标志着设计工具进入「对话式画布」阶段，设计师的工作流将被 AI 深度改写。",
+      "url": "https://www.producthunt.com/r/2BXP2WL4E54CXJ"
+    },
+    {
+      "title": "IrisGo for Solopreneurs — AI workflow automation: show it once, let it run",
+      "source": "Product Hunt",
+      "category": "AI基础设施",
+      "score": 85,
+      "one_liner": "#1 Product of the Week on Product Hunt: demo a workflow once and an AI agent runs it autonomously.",
+      "why_it_matters": "IrisGo 拿下本周 PH 周榜第一，主打「演示一次、自动运行」的 AI 工作流自动化。对个人与小型团队而言，批量任务可由 AI 代理接管，产品设计中重复性交付环节将率先被自动化替代。",
+      "url": "https://www.producthunt.com/r/I2U7KF4RUGEZSO"
+    },
+    {
+      "title": "GenPage 3.0 — build, personalize and optimize landing pages with AI",
+      "source": "Product Hunt",
+      "category": "AI设计工具",
+      "score": 84,
+      "one_liner": "#2 weekly launch: AI builds, personalizes and optimizes landing pages end to end.",
+      "why_it_matters": "GenPage 3.0 位居本周 PH 榜第二，把着陆页的构建、个性化与 A/B 优化全流程交给 AI。对营销设计团队来说，落地页产出正从「手工设计」转向「AI 生成 + 人审」，设计师的角色转向调优与品牌把控。",
+      "url": "https://www.producthunt.com/products/genpage"
+    },
+    {
+      "title": "Nano Banana 2.1 — Google's image model with sharper design and mask editing",
+      "source": "Product Hunt",
+      "category": "AI设计工具",
+      "score": 80,
+      "one_liner": "Google's image model update brings sharper design rendering and mask-based editing capabilities.",
+      "why_it_matters": "Google 图像模型 Nano Banana 2.1 主打更清晰的设计渲染与蒙版编辑，社交平台获得 123 票。意味着 AI 图像生成在「设计细节精度」上又进一步，视觉设计与营销物料生产将更依赖这类模型。",
+      "url": "https://www.producthunt.com/products/nano-banana-2-1"
+    },
+    {
+      "title": "Supademo AI Demo Agent — AI salesperson demos your product without payroll",
+      "source": "Product Hunt",
+      "category": "产品策略",
+      "score": 78,
+      "one_liner": "AI Demo Agent creates interactive product demos that adapt to each prospect automatically.",
+      "why_it_matters": "Supademo 用 AI 代理自动生成可交互产品演示，按用户行为动态调整内容。对产品团队而言，演示与试用体验正被智能化，转化路径设计的重心从「录屏」转向「对话式引导」。",
+      "url": "https://www.producthunt.com/products/supademo"
+    },
+    {
+      "title": "Spira Maxima — script-to-viral-social-video generation model",
+      "source": "Product Hunt",
+      "category": "视觉设计",
+      "score": 77,
+      "one_liner": "Video generation model that turns simple scripts into viral-ready social media videos.",
+      "why_it_matters": "Spira Maxima 以 206 票成为本周热度最高的视频生成产品之一，把脚本直接转化为社交传播视频。对品牌视觉与社媒设计团队，内容产能将被 AI 视频生成大幅放大。",
+      "url": "https://www.producthunt.com/products/spira-ai"
+    },
+    {
+      "title": "Siteprint — evaluate any website's design, then hand it to your AI",
+      "source": "Product Hunt",
+      "category": "设计转代码",
+      "score": 74,
+      "one_liner": "Assess any website's design quality and pipe the analysis straight into your AI workflow.",
+      "why_it_matters": "Siteprint 能评估任意网站的设计并用结果驱动你的 AI 生成改进方案。这相当于给 AI 加了一双「设计评审的眼睛」，设计走查与改版建议的产出方式将被重新定义。",
+      "url": "https://www.producthunt.com/products/siteprint"
+    },
+    {
+      "title": "Lumiko — screen recordings auto-edited with zoom and pan",
+      "source": "Product Hunt",
+      "category": "视觉设计",
+      "score": 73,
+      "one_liner": "Screen recordings auto-edited with smart zoom-and-pan; 142 upvotes in its launch week.",
+      "why_it_matters": "Lumiko 用 AI 自动为录屏加入缩放平移实现「自动运镜编辑」，与 Supademo 一道说明演示类工具正在全面 AI 化。产品视频与教程制作不再依赖专业剪辑师。",
+      "url": "https://www.producthunt.com/products/lumiko"
+    },
+    {
+      "title": "GPT-6 and Intelligent UI for everyone",
+      "source": "Hacker News",
+      "category": "AI基础设施",
+      "score": 93,
+      "one_liner": "OpenAI announces GPT-6 with 'Intelligent UI for everyone'; 747 points and 453 comments on HN.",
+      "why_it_matters": "OpenAI 发布 GPT-6 并主打「全民智能 UI」，在 HN 获得 747 分与 453 条讨论。智能界面成为下一代模型的核心叙事，意味着 AI 驱动的交互范式将对产品设计师产生顶层影响。",
+      "url": "https://news.ycombinator.com/item?id=49996425"
+    },
+    {
+      "title": "Animated ASCII Art for Web Pages",
+      "source": "Hacker News",
+      "category": "视觉设计",
+      "score": 80,
+      "one_liner": "Animated ASCII art technique for websites; 452 points on HN this week.",
+      "why_it_matters": "这个把异步动画 ASCII 艺术带上网页的项目在 HN 拿下 452 分，说明复古低带宽美学与极简视觉表达重新受追捧。对品牌与创意设计是有趣的差异化方向。",
+      "url": "https://news.ycombinator.com/item?id=49993857"
+    },
+    {
+      "title": "A font recreated from photographs of classic Commodore 64 keycaps",
+      "source": "Hacker News",
+      "category": "视觉设计",
+      "score": 78,
+      "one_liner": "Open-source font rebuilt from photos of original C64 keycaps; 401 points on HN.",
+      "why_it_matters": "作者从 C64 键盘键帽照片中还原出一套开源字体，获 401 分。复古数字美学正成为字体设计的热门素材源，也为品牌视觉提供怀旧叙事的现成资产。",
+      "url": "https://news.ycombinator.com/item?id=49990224"
+    },
+    {
+      "title": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+      "source": "Hacker News",
+      "category": "AI设计工具",
+      "score": 76,
+      "one_liner": "Single-prompt experiment: Opus 5.5 spends six hours visualizing Calvino's Invisible Cities.",
+      "why_it_matters": "一位开发者用单条提示让 Opus 5.5 用六小时可视化卡尔维诺的《看不见的城市》，在 HN 获 384 分。它展示了长时程 AI 创意任务的潜力，对 AI 视觉叙事与概念设计有启发价值。",
+      "url": "https://news.ycombinator.com/item?id=50004790"
+    },
+    {
+      "title": "Show HN: A walkable 3D art history museum built from Wikipedia",
+      "source": "Hacker News",
+      "category": "视觉设计",
+      "score": 70,
+      "one_liner": "Walkable 3D museum of art history generated from Wikipedia; 168 points on HN.",
+      "why_it_matters": "该项目把维基百科艺术条目变成可漫步的 3D 博物馆，获 168 分。AI+WebGL 正在重塑艺术内容的浏览方式，也为数字展陈设计提供了低成本原型范式。",
+      "url": "https://news.ycombinator.com/item?id=49992057"
+    },
+    {
+      "title": "2027 Web Platform Feature Ranking",
+      "source": "Hacker News",
+      "category": "前端开发",
+      "score": 64,
+      "one_liner": "Community-ranked list of web platform features for 2027 based on interop data.",
+      "why_it_matters": "基于互操作数据排出的 2027 Web 平台特性榜单在 HN 获 53 分，帮助前端与设计系统团队判断哪些新 CSS/浏览器特性可以放心采用，是技术债管理的实用参考。",
+      "url": "https://news.ycombinator.com/item?id=50005643"
+    },
+    {
+      "title": "Show HN: SVG Spark – 10 client-side SVG design and dev tools",
+      "source": "Hacker News",
+      "category": "前端开发",
+      "score": 60,
+      "one_liner": "Ten client-side tools for SVG design, optimization and development, all in one place.",
+      "why_it_matters": "SVG Spark 把 10 个客户端 SVG 设计/开发工具打包上线，获 37 分。它降低图标与插画资产生产门槛，是设计工程侧值得收藏的小工具集。",
+      "url": "https://news.ycombinator.com/item?id=50013931"
+    },
+    {
+      "title": "Is Meta's new AI agent easier to trust because it's cute?",
+      "source": "Sidebar.io",
+      "category": "UX研究",
+      "score": 78,
+      "one_liner": "UX essay on Meta's Muse AI agent: cute avatar drives trust, topping the US App Store.",
+      "why_it_matters": "Sidebar 精选文章讨论 Meta 新 AI 代理 Muse 的「可爱头像」为何能换来用户信任并登顶美区 App Store。这为 AI 产品的拟人化与信任设计提供了新的研究切口——情感化表达可能是 AI 采纳率的关键变量。",
+      "url": "https://uxdesign.cc/is-metas-new-ai-agent-easier-to-trust-because-its-cute-c8de13aefc6f"
+    },
+    {
+      "title": "Many agents, many views — Luke Wroblewski on agent hierarchies",
+      "source": "Sidebar.io",
+      "category": "UX研究",
+      "score": 74,
+      "one_liner": "Luke W reveals the UX challenge: you manage agents, they manage agents, recursively.",
+      "why_it_matters": "Luke Wroblewski 提出「多代理多层视图」的交互难题：人管代理、代理再管代理。当 Agent 层级成为产品结构，UX 的信息架构与权限设计必须随之重构，是 AI 原生产品的核心设计议题。",
+      "url": "https://www.lukew.com/ff/2165/many-agents-many-views"
+    },
+    {
+      "title": "Prompting as self-portrait",
+      "source": "Sidebar.io",
+      "category": "AI设计工具",
+      "score": 70,
+      "one_liner": "Essay: AI installed a distorted mirror where the blank page used to be.",
+      "why_it_matters": "这篇 doc.cc 文章把「提示词」比作自画像——AI 在空白页的位置放了一面扭曲的镜子。它提醒设计师思考生成式工具中自我表达与工具偏差的关系，是 AI 时代创作反思的好文本。",
+      "url": "https://www.doc.cc/humankind/self-portrait"
+    },
+    {
+      "title": "Leadership folios — design manager portfolios annotated with what to steal",
+      "source": "Sidebar.io",
+      "category": "产品策略",
+      "score": 68,
+      "one_liner": "Portfolios from design managers and VPs, annotated with what works and what to steal.",
+      "why_it_matters": "Leadership Folios 汇集设计总监/VP 的作品集并逐条标注「为什么有效、该偷学什么」。对想晋升或搭建设计领导力的产品设计师来说，是把抽象「设计领导力」转化为可见作品集的实用指南。",
+      "url": "https://www.leadershipfolios.com/"
+    },
+    {
+      "title": "How design gets done in 2026 #3: inside the AI infrastructure of Stripe",
+      "source": "Medium",
+      "category": "AI基础设施",
+      "score": 82,
+      "one_liner": "Designer Fund research: 91% of designers use AI weekly; peek inside Stripe's AI design stack.",
+      "why_it_matters": "Design Bootcamp 深入拆解 Stripe 的 AI 设计基础设施，并援引 900+ 设计师调研：91% 的设计师每周至少用一次 AI。这为设计团队搭建内部 AI 工具链提供了工程级参考，也量化了 AI 在真实工作流中的渗透率。",
+      "url": "https://medium.com/design-bootcamp/how-design-gets-done-in-2026-part-3-inside-the-ai-infrastructure-of-stripe-fin-formerly-33bf173dd795"
+    },
+    {
+      "title": "Creativity AI #96: Midjourney learns to think, V9 aims for 2026, Claude watermarks text",
+      "source": "Medium",
+      "category": "视觉设计",
+      "score": 70,
+      "one_liner": "Weekly AI-creativity digest: Midjourney reasoning, V9 plans, Claude text watermarks.",
+      "why_it_matters": "这份 10 月 7 日发布的创意 AI 周刊聚焦 Midjourney 推理能力、V9 时间表与 Claude 文本水印。对视觉与 AI 设计从业者，这是跟踪底层模型能力变化、预判工具进化方向的高效入口。",
+      "url": "https://medium.com/creativity-ai/creativity-ai-96-midjourney-learns-to-think-v9-aims-for-2026-and-claude-watermarks-your-text-9dba4e4c5b65"
+    },
+    {
+      "title": "Adobe Design: You can't describe your way to great design",
+      "source": "Medium",
+      "category": "AI设计工具",
+      "score": 72,
+      "one_liner": "Adobe argues prompt-centric AI tools miss what makes design great; published Oct 2.",
+      "why_it_matters": "Adobe Design 官方文章质疑「描述式生成」的设计上限：光靠打字描述无法产出伟大的设计。它代表主流设计软件厂商对 AI 工作流的冷静反思，提醒团队不要把所有设计环节都押注在文本提示上。",
+      "url": "https://medium.com/@Adobe_Design/you-cant-describe-your-way-to-great-design-e16b23316878"
+    },
+    {
+      "title": "I hate corporate culture in tech, especially among designers",
+      "source": "Reddit",
+      "category": "产品策略",
+      "score": 66,
+      "one_liner": "r/UXDesign hot thread: 619 upvotes, 90 comments on corporate culture eating design quality.",
+      "why_it_matters": "r/UXDesign 高赞帖（619 票、90 评论）集中吐槽大厂文化如何拖累设计讨论与产出质量。它反映设计团队在组织流程中的普遍焦虑，对管理者是重要的组织设计警讯。",
+      "url": "https://www.reddit.com/r/UXDesign/comments/1wv1dk7/i_hate_corporate_culture_in_tech_especially_among/"
+    },
+    {
+      "title": "[OFFICIAL] Salary sharing thread for UX Professionals — October 2026",
+      "source": "Reddit",
+      "category": "产品策略",
+      "score": 58,
+      "one_liner": "r/UXDesign's official October 2026 salary-sharing thread, a live market signal for designers.",
+      "why_it_matters": "r/UXDesign 官方 10 月薪资分享帖持续更新，实时反映北美设计岗位薪资与裁员行情。对设计师评估自身市场价值和职业规划，是一手数据来源。",
+      "url": "https://www.reddit.com/r/UXDesign/comments/1wusnpz/official_salary_sharing_thread_for_ux/"
+    },
+    {
+      "title": "Cerebrium — AI platform site (Awwwards Site of the Day)",
+      "source": "Awwwards",
+      "category": "视觉设计",
+      "score": 70,
+      "one_liner": "Recent Awwwards Site of the Day: Cerebrium's AI developer platform site with standout art direction.",
+      "why_it_matters": "AI 基础设施公司 Cerebrium 的官网入选近期 Awwwards Site of the Day，其视觉语言代表 AI 品牌设计的审美方向：克制的深色系+精确的网格与动效。作品级官网是设计趋势最直观的样本。",
+      "url": "https://cerebrium.ai/"
+    },
+    {
+      "title": "Aspen Search — Awwwards site with editorial search UX",
+      "source": "Awwwards",
+      "category": "视觉设计",
+      "score": 68,
+      "one_liner": "Fresh Awwwards Site of the Day: Aspen Search's editorial layout rethinking search interfaces.",
+      "why_it_matters": "Aspen Search 以编辑式排版重新想象搜索界面，入选 Awwwards 每日精选。搜索产品的「内容化」呈现为信息架构与结果页设计提供了新的审美与交互范式。",
+      "url": "https://www.aspensearch.com/"
+    },
+    {
+      "title": "bleibtgleich'26 — immersive years-recap site (Awwwards)",
+      "source": "Awwwards",
+      "category": "视觉设计",
+      "score": 66,
+      "one_liner": "bleibtgleich'26 is an immersive annual-recap website recently honored by Awwwards.",
+      "why_it_matters": "年度回顾类网站 bleibtgleich'26 结合叙事动效与视差体验入选 Awwwards，展示了品牌年终企划的沉浸式表达趋势，适合做 campaign 型产品的视觉参考。",
+      "url": "https://bleibtgleich.dev/"
+    },
+    {
+      "title": "Boc.Studio — design studio site (Awwwards Site of the Day)",
+      "source": "Awwwards",
+      "category": "视觉设计",
+      "score": 64,
+      "one_liner": "Boc.Studio's portfolio site recently received Awwwards Site of the Day recognition.",
+      "why_it_matters": "设计工作室 Boc.Studio 的作品集网站获得 Awwwards 每日精选，其大胆的版式与滚动叙事代表独立设计工作室的当前风格风向，是作品集设计的灵感样本。",
+      "url": "https://boc.studio/"
+    },
+    {
+      "title": "Figma release notes: Figma Agent GA + multi-GitHub orgs (Oct 5–6)",
+      "source": "Figma Blog",
+      "category": "AI设计工具",
+      "score": 95,
+      "one_liner": "Oct 6: Figma Agent exits beta with AI-credit pricing; Oct 5: link multiple GitHub orgs to Figma.",
+      "why_it_matters": "Figma 于 10 月 6 日宣布 Agent 全面可用：更低延迟、聊天式文件搜索、可配置的设计系统 guidelines，且开始按 AI 点数计费；10 月 5 日还开放了多 GitHub 组织接入。对设计系统团队，这意味着 Figma 正把 AI 协作与代码仓库绑定成企业级标配，设计资产管理与开发协作的边界被进一步打通。",
+      "url": "https://www.figma.com/release-notes/"
+    }
+  ]
+}

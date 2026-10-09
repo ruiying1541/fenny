@@ -1,0 +1,150 @@
+{
+  "week": "2026-W41",
+  "collected_at": "2026-10-09T14:00:00Z",
+  "items": [
+    {
+      "title": "OpenAI 正式推出 GPT-6 与智能界面 Intelligent UI：ChatGPT 从对话升级为交互式界面生成器",
+      "source": "优设热榜/OpenAI官方",
+      "category": "AI设计工具",
+      "score": 98,
+      "one_liner": "OpenAI rolls out GPT-6 with Intelligent UI, turning ChatGPT answers into interactive generated interfaces with buttons, charts and forms",
+      "why_it_matters": "ChatGPT 不再以纯文本回答，而是根据问题实时生成可交互界面（按钮、表单、图表、对比视图、计算器甚至小游戏），通过原生组件库+编译器流式渲染。对产品设计师而言，「固定的界面模式正在被动态生成的个性化界面取代」，人适应软件的时代走向终结，动态 UI 生成成为新的设计对象。",
+      "url": "https://openai.com/zh-Hans-CN/index/gpt-6-for-everyone/"
+    },
+    {
+      "title": "谷歌联合 Unity 发布 AI 游戏平台 Playground：一句话生成可玩游戏",
+      "source": "IT之家/钛媒体",
+      "category": "AI创作平台",
+      "score": 94,
+      "one_liner": "Google and Unity launch Playground, a conversational AI game platform where natural language prompts generate playable browser games",
+      "why_it_matters": "Playground 由 Gemini、Nano Banana、Lyria 三大模型驱动，用户用自然语言即可生成、迭代并分享游戏，被视为对 Roblox 封闭商业模式的直接冲击。这意味着「AI 生成内容」从图片视频延展到可交互游戏世界，交互式 AI 创作平台将重塑游戏与互动内容的生产方式。",
+      "url": "https://www.ithome.com/1/010/289.htm"
+    },
+    {
+      "title": "苹果官宣「欢迎回家」：HomePad 智能中枢与 homeOS 定档 10 月 13 日",
+      "source": "新浪财经/钛媒体",
+      "category": "智能硬件与OS设计",
+      "score": 92,
+      "one_liner": "Apple confirms Oct 13 'Welcome home' event for HomePad hub with homeOS, featuring face-recognition personalized UI and Siri AI as the only interface",
+      "why_it_matters": "传闻中的家庭智能中枢 HomePad 搭载专用 homeOS（无 App Store、以 AI 版 Siri 为唯一交互入口），支持人脸识别与个性化界面，并与 LG 联合开发门铃门锁等智能家居配件。这是苹果继 Vision Pro 之后又一次全新人机交互形态的探索——「以 AI 为中心的 OS 设计」是产品设计师需要关注的下一站。",
+      "url": "https://finance.sina.com.cn/stock/t/2026-10-09/doc-iniuquqp3113368.shtml"
+    },
+    {
+      "title": "优设独家翻译：iPhone Duo 侧边工具栏官方设计指南发布",
+      "source": "优设UISDC/苹果官方HIG",
+      "category": "移动设计",
+      "score": 90,
+      "one_liner": "Apple's official iPhone Duo sidebar toolbar design guide lands in Chinese via UISDC, detailing folding-screen layout adaptation principles",
+      "why_it_matters": "折叠屏 iPhone Duo 的侧边工具栏是苹果针对「相对矮胖的折叠屏」给出的差异化适配方案——将工具栏与内容区并排而非简单拉伸高度，发布后 10 小时内优设即完成官方指南汉化。折叠屏 UI 范式正在从传闻走向可执行的设计规范，这是国内设计师跟进下一代移动界面设计的直接素材。",
+      "url": "https://www.uisdc.com/raise-the-bar-with-iphone-duo"
+    },
+    {
+      "title": "Figma Agent 全面可用（GA）：正式接入多 GitHub 组织",
+      "source": "Figma 官方发布说明",
+      "category": "AI设计工具",
+      "score": 89,
+      "one_liner": "Figma's AI agent reaches general availability, now connecting multiple GitHub organizations natively on the canvas",
+      "why_it_matters": "Figma Agent 从预览走向 GA，并支持连接多个 GitHub 组织——AI 设计代理在画布内直接生成真实布局（复用组件、Token 与变量），设计资产与代码仓库的双向协同进入常态化。对设计团队而言，「画布上的 AI 同事」从尝鲜变成日常工具链的一部分。",
+      "url": "https://www.figma.com/release-notes/"
+    },
+    {
+      "title": "谷歌 Nano Banana 2.1 发布：白菜价出图超越自家 Pro 旗舰",
+      "source": "钛媒体",
+      "category": "AI图像生成",
+      "score": 88,
+      "one_liner": "Google ships Nano Banana 2.1 image model, beating its Pro flagship on Arena leaderboards at a quarter of the cost",
+      "why_it_matters": "Nano Banana 2.1（基于 Gemini 3.6 Flash）在 Arena 多图编辑榜排第 4、文生图第 5、单图编辑第 6，出图成本仅为 Pro 的 1/4，主打视觉设计与蒙版编辑。图像生成能力的「性价比战」让 AI 辅助设计从高成本尝鲜转向规模化日常使用。",
+      "url": "https://www.tmtpost.com/8160561.html"
+    },
+    {
+      "title": "Anthropic 发布 Claude Haiku 5.5：最便宜最快的 Claude 模型",
+      "source": "Anthropic 支持中心",
+      "category": "AI基础设施",
+      "score": 86,
+      "one_liner": "Anthropic releases Claude Haiku 5.5, its cheapest and fastest model yet, lowering the cost floor for Agentic products",
+      "why_it_matters": "Haiku 5.5 是 Anthropic 迄今最便宜、最快的模型，意味着 AI Agent 类产品的推理成本进一步下探，更多「设计+AI」组合可以更低成本高频调用模型。底层模型的价格与速度，直接决定上层 AI 设计产品能否规模化落地。",
+      "url": "https://support.claude.com/zh-CN/articles/12138966"
+    },
+    {
+      "title": "VS Code 1.141 更新：AI 智能体从玩具变成生产工具",
+      "source": "钛媒体/VS Code 官方更新日志",
+      "category": "开发工具UX",
+      "score": 85,
+      "one_liner": "VS Code 1.141 pivots to an agent management console with session grids, worktree cleanup and terminal sandboxing for Copilot agents",
+      "why_it_matters": "微软在 VS Code 1.141（10 月 7 日）转向 AI 智能体管理控制台：多会话网格化布局、工作树智能清理、跨平台终端沙盒。IDE 的界面设计正在围绕「人机协同编程」重做——当 Agent 成为开发流程主角，界面如何组织多个并发智能体成为新的 UX 命题。",
+      "url": "https://code.visualstudio.com/updates"
+    },
+    {
+      "title": "Meshy 杀进 a16z 消费 AI 收入榜：中国 AI 3D 公司 ARR 破 1 亿美元",
+      "source": "钛媒体",
+      "category": "AI 3D设计",
+      "score": 84,
+      "one_liner": "Chinese AI 3D startup Meshy ranks #31 on a16z's consumer AI revenue list with ARR exceeding $100M",
+      "why_it_matters": "AI 3D 生成公司 Meshy 位列 a16z 消费 AI 收入榜第 31 名、ARR 破 1 亿美元，是该榜单唯一 AI 3D 公司。文本/图片转 3D 资产的商业化跑通，意味着 AI 3D 内容生产正在成为设计师的日常工具，而非演示愿景。",
+      "url": "https://www.tmtpost.com/8160561.html"
+    },
+    {
+      "title": "Chrome 155 默认启用 JPEG XL：图片格式战争迎来终局",
+      "source": "钛媒体",
+      "category": "Web技术/视觉",
+      "score": 83,
+      "one_liner": "Chrome 155 enables JPEG XL decoding by default with a pure-Rust decoder, ending the web image format war",
+      "why_it_matters": "Chrome 155（10 月 6 日）默认启用 JPEG XL 解码，采用纯 Rust 的 jxl-rs 解码器与 SIMD 硬件级性能。对视觉设计师而言，JPEG XL 的高保真与体积优势将改变 Web 图片交付标准，压缩策略与设计素材规范需要重新评估。",
+      "url": "https://www.tmtpost.com/8160561.html"
+    },
+    {
+      "title": "Anthropic 将 Computer Use、Browser Use、Skills API 与 Files API 推向正式可用",
+      "source": "NxCode",
+      "category": "AI基础设施",
+      "score": 82,
+      "one_liner": "Anthropic GA's Computer Use, Browser Use, Skills API and Files API, formalizing the runtime layer for agentic apps",
+      "why_it_matters": "Claude 的四大 Agent 工具从 Beta 走向 GA，应用运行时由开发者负责——Agent 能稳定操作浏览器与文件系统之后，「Agent 可用的产品界面」成为新的设计约束，设计师需要为 Agent 读者设计可达的界面结构。",
+      "url": "https://www.nxcode.io/zh/resources/news"
+    },
+    {
+      "title": "IXDC 2026 国际体验设计大会 10 月广州开幕：有温度的智能体验",
+      "source": "IXDC 官网",
+      "category": "设计行业",
+      "score": 81,
+      "one_liner": "IXDC 2026 International Experience Design Conference opens in Guangzhou this October, themed 'warm intelligent experience'",
+      "why_it_matters": "第十七届 IXDC 国际体验设计大会定档 2026 年 10 月广州，主题聚焦「有温度的智能体验」。在 AI 全面进入产品设计的当下，行业大会主题转向人文温度与智能体验的平衡，折射出国内体验设计界对 AI 时代设计价值的重新定位。",
+      "url": "https://ixdc.org/?p=28130"
+    },
+    {
+      "title": "GPT-6 吃进 Jira：Atlassian 把企业知识喂给了 OpenAI",
+      "source": "钛媒体",
+      "category": "企业AI产品",
+      "score": 79,
+      "one_liner": "OpenAI and Atlassian expand partnership, embedding GPT-6 into products and Rovo with deep Teamwork Graph integration",
+      "why_it_matters": "OpenAI 与 Atlassian 扩大合作，GPT-6 系列模型全面嵌入其产品与 Rovo，并与 Teamwork Graph 深度绑定。企业级 AI 与设计协作工具的融合，意味着设计任务数据（需求、缺陷、流程）将成为 AI 上下文的一部分，产品设计的输入输出都在被重构。",
+      "url": "https://www.tmtpost.com/8160561.html"
+    },
+    {
+      "title": "苹果官方发布！iPhone Duo 折叠屏设计的 8 个核心知识点",
+      "source": "优设UISDC/苹果官方",
+      "category": "移动设计",
+      "score": 78,
+      "one_liner": "Apple officially publishes 8 core knowledge points for designing on folding iPhone Duo, translated by UISDC",
+      "why_it_matters": "优设 2 天前翻译了苹果官方针对折叠屏 iPhone Duo 的 8 个设计核心知识点，与侧边工具栏指南互为补充，构成折叠屏 UI 范式的方法论拼图。国内设计师正以「翻译+解读」的方式第一时间消化最新的官方设计规范。",
+      "url": "https://www.uisdc.com/design-for-iphone-duo-3"
+    },
+    {
+      "title": "北大提出 HOI-Edit 基准与 SCPE 自纠错：图像编辑进入「交互理解」时代",
+      "source": "机器之心",
+      "category": "学术前沿",
+      "score": 76,
+      "one_liner": "Peking University introduces HOI-Edit benchmark and SCPE self-correction for interactive human-object-aware image editing at ICML 2026",
+      "why_it_matters": "ICML 2026 上北大提出 HOI-Edit 基准与 SCPE 自纠错机制，让图像编辑模型真正理解「交互关系」（如手持物品的遮挡与姿态）。对依赖 AI 图像编辑的设计师而言，模型对交互语义的理解深度直接决定合成素材的可用性。",
+      "url": "https://www.jiqizhixin.com/"
+    },
+    {
+      "title": "QCon 全球软件开发大会上海站：Motiff 妙多等探讨 AI 应用开发实践",
+      "source": "InfoQ",
+      "category": "AI设计工具",
+      "score": 74,
+      "one_liner": "QCon Shanghai plans an AI application development track with speakers from Motiff and other leading teams in October",
+      "why_it_matters": "10 月 18-19 日 QCon 上海站设置《AI 应用开发实践》专题，Motiff 妙多与字节、阿里、百度、携程团队同台。国内 AI 设计工具头部的工程实践走向公开分享，预示着 AI 设计工具竞争从产品体验升级到工程体系。",
+      "url": "https://www.infoq.cn/article/hukrTcQXFyqF5mZ8lSOR"
+    }
+  ]
+}
