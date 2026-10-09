@@ -3,6 +3,14 @@
   "site_description": "产品设计 AI 热点月刊",
   "issues": [
     {
+      "period": "2026-W41",
+      "date": "2026-10-09",
+      "title": "智能界面时代开启，AI 生成界面与 Agentic Design 共振",
+      "item_count": 20,
+      "url": "./week/2026-W41.html",
+      "data_url": "./data/2026-W41.json"
+    },
+    {
       "period": "2026-W38",
       "date": "2026-09-18",
       "title": "AI Agent进入协同办公，设计交付从设计稿到代码级跃迁",
